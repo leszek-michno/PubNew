@@ -1,0 +1,45 @@
+@import "./Variables.scss";
+
+.menu {
+  margin-bottom: 2rem;
+  button{
+    width: 800px;
+    margin: 0 auto;
+    background-color: grey;  
+    font-size: $fontSizeMidi;
+    margin: 2% 0;
+    color: $backcolorblack;
+    padding: 0.5rem;
+    border: solid 0.5px white;
+    cursor: pointer;
+  }
+}
+
+.text_menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: $fontSizeSmall;
+  .p_left{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 950px){
+  
+  .menu {
+    button{
+      width: 100%;
+      font-weight: bolder; 
+      margin: 0 auto;
+      margin: 5% 0;
+    }
+  }
+  
+  .menu_text{
+    max-width: 96%;
+    margin: 0 auto;
+    font-size: 1rem;
+  } 
+  }
+  

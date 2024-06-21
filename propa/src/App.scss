@@ -1,8 +1,11 @@
-#root {
+
+
+* {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 200;
 }
 
 .container {
@@ -10,5 +13,7 @@
   height: 100vh;
   flex-direction: column;
   justify-content: space-between;
- 
+  background-color: black;
 }
+
+

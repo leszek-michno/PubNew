@@ -1,0 +1,26 @@
+@import './Variables.scss';
+
+.slider-container {
+    display: flex;
+    align-items:flex-start;
+    width: 100%;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    margin-bottom: 5rem;
+
+  }
+  
+  .slider-image {
+    // flex-direction: column;
+    width: 900px;
+
+  }
+
+  @media screen and (max-width: 900px){
+    .slider-image {
+        // flex-direction: column;
+        width: 100%;
+
+  }
+}
+  

@@ -1,0 +1,14 @@
+header {
+  padding-top: 1rem;
+  margin-top: 80px;
+  text-align: center;
+}
+ 
+
+@media (max-width: 650px) {
+  header {
+    margin-top: 80px;
+    width: 100%;
+   
+  }
+}
