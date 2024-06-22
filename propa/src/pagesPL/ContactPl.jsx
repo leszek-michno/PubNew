@@ -3,7 +3,7 @@ import {
   AiOutlineInstagram,
   AiOutlineFacebook,
   AiOutlineMail,
-  AiOutlineGoogle,
+  // AiOutlineGoogle,
 } from "react-icons/ai";
 import "../assets/styles/Contact.scss"
 
@@ -42,13 +42,13 @@ const ContactPl = () => {
         >
           <AiOutlineInstagram />
         </a>
-        <a
+        {/* <a
           href={"https://pubpropaganda.business.site/"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <AiOutlineGoogle />
-        </a>
+        </a> */}
         <a href={"mailto:contact@pubpropaganda.eu"}>
           <AiOutlineMail />
         </a>
@@ -56,14 +56,12 @@ const ContactPl = () => {
         </div>
         <div className="hours">
         <h2>Godziny otwarcia lokalu</h2>
-        <span> od poniedziałku do czwartku: </span>
-        <span>od godz 17.00 do godz 02.00</span>
-        <br />
-        <span>w piątek i sobotę: </span>
-        <span>od godz 18.00 do godz 04.00</span>
-        <br />
-        <span>niedziela: </span>
-        <span>od godz 18.00 do godz 02.00</span>
+        <p className="colorBlue"> od poniedziałku do czwartku: </p>
+        <p>od godz 17.00 do godz 02.00</p>
+        <p className="colorBlue">w piątek i sobotę: </p>
+        <p>od godz 18.00 do godz 04.00</p>
+        <p className="colorBlue">niedziela: </p>
+        <p>od godz 18.00 do godz 02.00</p>
       </div>
     </>
   );
