@@ -9,7 +9,7 @@ import { Est, Handsome } from './Texts';
 export const NewsPlList = [
   {
     id: 2,
-    title: "Wielkanoc w Propagandzie 2024",
+    title: "Wielkanoc 2024",
     content: <Est/>,
     img: Photo_1,
   },

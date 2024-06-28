@@ -11,16 +11,19 @@ import Gallery from './pagesPL/Gallery'
 import MainEng from './pagesEng/MainEng'
 import NewsEng from './pagesEng/NewsEng'
 import ContactEng from './pagesEng/ContactEng'
-import MenuEng from './pagesEng/ManuEng'
-import NavBar from './components/NavBar'
+import MenuEng from './pagesEng/MenuEng'
+// import NavBarEng from './components/NavBarEng'
+import NavBarPl from './components/NavBarPl'
+
 
 function App() {
+
 
   return (
     
        <Router>
-        <div className='container'> 
-        <NavBar />
+        <div className='container'>         
+        <NavBarPl/>
         <div>
           <Routes>
             <Route path="/" element={<MainPl/>} />
@@ -28,10 +31,10 @@ function App() {
             <Route path="/Kontakt" element={<ContactPl/>} />
             <Route path="/Menu" element={<MenuPl/>} />
             <Route path="/Galeria" element={<Gallery/>} />
-            <Route path="English Version" element={<MainEng/>} />
+            <Route path="Homepage" element={<MainEng/>} />
             <Route path="/News" element={<NewsEng/>} />
             <Route path="/Contact" element={<ContactEng/>} />
-            <Route path="/Menu" element={<MenuEng/>} />             
+            <Route path="/Menu_Eng" element={<MenuEng/>} />             
           </Routes>
         </div>
         <Footer/>

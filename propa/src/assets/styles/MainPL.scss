@@ -2,16 +2,16 @@
 
 
   h1{
-    color: rgba(229, 5, 5, 0.805);
+    color: $colorBrown;
     font-size: $fontSizeVeryBig;
     padding: 2%;
     letter-spacing: 0.3rem;
-    filter: drop-shadow(0 0 0.95rem white);
     font-weight: 400;
   }
   h2{
     font-size: $fontSizeBig;
     letter-spacing: 0.1rem;
+    color: $colorGrey;
   }
 
 .homeLinks {
@@ -22,29 +22,34 @@
   gap: 2rem;
   margin: 5rem 0;
   
+  
 .logoLinks {
   text-align: center;
-  border: solid $colorGrey 2px;
+  border: solid $colorGrey 0.05rem;
   border-radius: 3%;
-  width: 16rem;
-  height: 18rem; 
+  width: 12rem;
+  height: 14rem; 
   cursor: pointer;
   a {
     text-decoration: none;
     p{
       font-size: $fontSizeBig;
-      font-weight: 300;
       color: $colorOrange;
+      padding: 0.5rem 0;
     }   
   }
 
 img{
   margin-top: 0;
-  width: 80%;
+  width: 60%;
   margin-bottom: 6%;
+  
 }
 &:hover {
-  box-shadow: 0 0 20px 0 white;
+  // box-shadow: 0 0 10px 0 $colorBrown;
+  border: solid 0.1rem $colorOrange;
+  color: $colorGrey;
+
 }
 }
 
@@ -66,7 +71,7 @@ img{
 @media screen and (max-width: 960px){
 
   h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: 0rem;
   }
   h2{
@@ -91,6 +96,10 @@ img{
         font-weight: 300;
         color: $colorOrange;
       }
+    }
+    &:hover {
+      border: solid 0.1rem $colorGrey;
+    
     }
     }
   }

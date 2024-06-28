@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import '../assets/styles/Menu.scss'
 import {shots, 
@@ -12,7 +13,7 @@ import {shots,
 } from '../assets/data/products';
 import { OpenButton } from "../components/MenuPosition";
 
-const MenuPage = () => {
+const ManuEng = () => {
   const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState();
   const [isVisibleBottelBeer, setIsVisibleBottleBeer] = useState();
   const [isVisibleWheatBeer, setIsVisibleWheatBeer] = useState();
@@ -37,7 +38,7 @@ const MenuPage = () => {
             setShots(!isShots);
           }}
         >
-        <p>Szoty</p>  
+        <p>Shots</p>  
         </button>
         <div>
           {isShots
@@ -50,7 +51,7 @@ const MenuPage = () => {
             setIsCoctails(!isCoctails);
           }}
         >
-          <p>Koktaile</p>
+          <p>Coctails</p>
         </button>
         <div>
           {isCoctails
@@ -63,7 +64,7 @@ const MenuPage = () => {
             setIsVisibleDraftBeer(!isVisibleDraftBeer);
           }}
         >
-      <p>Piwa lane</p>
+      <p>Draf Beer</p>
         </button>
         <div>
           {isVisibleDraftBeer
@@ -76,7 +77,7 @@ const MenuPage = () => {
             setIsVisibleBottleBeer(!isVisibleBottelBeer);
           }}
         >
-        <p>Piwa butelkowe</p>
+        <p>Bottel Beer</p>
         </button>
         <div>
           {isVisibleBottelBeer
@@ -157,4 +158,8 @@ const MenuPage = () => {
   );
 };
 
-export default MenuPage;
+
+
+
+
+export default ManuEng

@@ -2,20 +2,20 @@ import { NavLink } from 'react-router-dom';
 import logoLink from '../assets/images/pro4.webp';
 
 
-export const NewsLink = () => {
+export const NewsLinkEng = () => {
     return ( 
         <div className='logoLinks'>
-        <NavLink to='/Aktualności'>
-        <p>Aktualności</p>
+        <NavLink to='/News'>
+        <p>News</p>
         <img src={logoLink} alt="propa logo" className="imgGray" loading='lazy'/> 
         </NavLink>
         </div>
         );  
 }
- export const MenuLink = () => {
+ export const MenuLinkEng = () => {
     return ( 
         <div className='logoLinks'> 
-        <NavLink to='/Menu'>
+        <NavLink to='/Menu_Eng'>
         <p>Menu</p>    
         <img src={logoLink} alt="propa logo" loading='lazy'/> 
         </NavLink>
@@ -23,22 +23,22 @@ export const NewsLink = () => {
         );
     
 }
-export const ContactLink = () => {
+export const ContactLinkEng = () => {
     return ( 
         <div className='logoLinks'> 
-        <NavLink to='/Kontakt'>
-        <p>Kontakt</p>        
+        <NavLink to='/Contact'>
+        <p>Contact</p>        
         <img src={logoLink} alt="propa logo" className="imgInvert" loading='lazy'/> 
         </NavLink>
         </div>
         );
 }
 
-export const GalleryLink = () => {
+export const GalleryLinkEng = () => {
     return ( 
         <div className='logoLinks'> 
-        <NavLink to='/Galeria'>
-        <p>Galeria</p>    
+        <NavLink to='/Gallery'>
+        <p>Gallery</p>    
         <img src={logoLink} alt="propa logo" className="imgSepia" loading='lazy'/> 
         </NavLink>
         </div>

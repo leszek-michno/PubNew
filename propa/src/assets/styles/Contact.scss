@@ -2,11 +2,11 @@
 
 .contact {
   width: 100%;
-  padding-top: 2rem;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 2rem;
 
   iframe {
     width: 100%;
@@ -15,7 +15,8 @@
  div {
     text-align: center;
   p {
-    font-size: $fontSizeMidi;
+    font-size: $fontSizeSmall;
+    color: $colorGrey;
   }
 
   h2 {
@@ -36,7 +37,6 @@
 }
 }
 .hours {
-  padding: 2rem 0;
   text-align: center;
   h2 {
     font-size: $fontSizeMidiBig;
@@ -46,8 +46,10 @@
   p {
     font-size: $fontSizeSmall;
   }
-  .colorBlue {
-    color: $colorBlue;
-    font-weight: 300;
+
+}
+@media screen and (max-width: 650px){
+  .contact{
+    gap: 1rem;
   }
 }

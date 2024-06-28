@@ -1,16 +1,30 @@
 
-$backcolormain:  rgb(24, 8, 1);
-$backcolorblack: rgb(11, 10, 10);
-$pageColor:  rgb(26, 28, 30);
+// $backcolormain:  rgb(24, 8, 1);
+$backcolorblack: rgb(26, 26, 28);
+// $pageColor:  rgb(26, 28, 30);
+
+
+$backcolormain:  rgb(27, 10, 2);
+// $backcolorblack: rgb(22, 12, 12);
+$pageColor:  rgb(0, 0, 0);
+
+
+// $fontSizeSmall: 1.2rem;
+// $fontSizeMidi: 1.5rem;
+// $fontSizeMidiBig: 1.7rem; 
+// $fontSizeBig: 2rem; 
+// $fontSizeVeryBig: 4.5rem;
 
 $fontSizeSmall: 1.2rem;
-$fontSizeMidi: 1.5rem;
-$fontSizeMidiBig: 1.7rem; 
+$fontSizeMidi: 1.3rem;
+$fontSizeMidiBig: 1.5rem; 
 $fontSizeBig: 2rem; 
-$fontSizeVeryBig: 4.5rem;
+$fontSizeVeryBig: 4rem;
 
-// $colorOrange: rgb(238, 111, 111);
-$colorOrange: rgba(202, 20, 20, 0.996);
-$colorBlue:  rgb(68, 103, 199); 
+// $colorOrange: rgb(85, 25, 25);
+// $colorOrange: rgba(202, 20, 20, 0.996);
+$colorOrange: rgba(194, 135, 79, 0.996);
+$colorBlue:  rgb(97, 123, 196); 
 $colorWhite: rgb(255, 255, 255); 
 $colorGrey: grey; 
+$colorBrown: rgb(146, 9, 9);

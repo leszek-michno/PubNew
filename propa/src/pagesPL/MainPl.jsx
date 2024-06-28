@@ -1,5 +1,3 @@
-// import Heads from '../assets/images/redHeads.png'
-// import BarPhoto from '../assets/images/IMG5.webp'
 import "../assets/styles/MainPL.scss";
 import {
   ContactLink,

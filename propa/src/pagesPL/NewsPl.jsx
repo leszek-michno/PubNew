@@ -15,7 +15,7 @@ const NewsPl = () => {
             <img src={item.img} loading='lazy'/>
             </div>
            <div className='content'>   
-            <p>{item.content}</p>
+            {item.content}
             </div>
             </div>
           </div>
