@@ -1,7 +1,7 @@
-// Polsich version
+
 import Photo_1 from '../images/sepia.jpeg'
 import Photo_2 from '../images/handsome-boys2.png'
-import { Est, Handsome } from './Texts';
+import { Est, EstEng, Handsome, HandsomeEng } from './Texts';
 
 
 // Polish version
@@ -22,3 +22,22 @@ export const NewsPlList = [
   },
  
 ];
+
+//English version
+export const NewsPlListEng = [
+  {
+    id: 2,
+    title: "Easter in Propaganda",
+    content: <EstEng/>,
+    img: Photo_1,
+  },
+  {
+    id: 1,
+    title: "Live Show in Propaganda",
+    content:
+      <HandsomeEng/>,
+    img: Photo_2
+  },
+ 
+];
+

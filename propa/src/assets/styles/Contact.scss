@@ -22,16 +22,25 @@
   h2 {
     font-size: $fontSizeBig;
     color: $colorOrange;
-    font-weight: 400;
+    font-weight: 350;
   }
 
   a {
-    
+    text-decoration: none;
     font-size: $fontSizeBig;
     padding: 0 1rem;
     color: $colorOrange;
     &:hover {
       color: $colorBlue;
+    }
+    span{
+      display: block;
+      font-size: $fontSizeSmall;
+      color: $colorGrey;
+      &:hover {
+        color: $colorBlue;
+      }
+
     }
   }
 }
@@ -41,8 +50,7 @@
   h2 {
     font-size: $fontSizeMidiBig;
     color: $colorOrange;
-    font-weight: 400;
-  }
+    font-weight: 350;
   p {
     font-size: $fontSizeSmall;
   }
@@ -50,6 +58,6 @@
 }
 @media screen and (max-width: 650px){
   .contact{
-    gap: 1rem;
+    gap: 0;
   }
-}
+}}

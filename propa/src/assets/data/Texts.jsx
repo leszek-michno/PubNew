@@ -97,7 +97,7 @@ export const Handsome = () => {
           4) jeżeli nie zostanie w tym czasie odebrany, to zamówienie będzie
           automatycznie anulowane.
         </p>
-        <p> Cena jednego t-shirta: 60 zł (płatne przy odbiorze).</p>
+        <p> Cena jednego t-shirta: 70 zł (płatne przy odbiorze).</p>
         <span> Obecnie mamy t-shirty: </span>
         <br />
         <span> - kobiece w rozmiarach L, M, S, XS;</span>

@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import '../assets/styles/Menu.scss'
-import {shots, 
+import { 
   draftBeer,
   bottleBeer,
   bottleWheatBeer,
@@ -9,7 +9,10 @@ import {shots,
   strongAlco,
   wins,
   noAlco,
-  coctails
+  shotsEng,
+  coctailsEng,
+
+
 } from '../assets/data/products';
 import { OpenButton } from "../components/MenuPosition";
 
@@ -31,40 +34,12 @@ const ManuEng = () => {
       <h1>Menu</h1>
     </header>
       <div className="menu">
-      
-      
-      <button
-          onClick={() => {
-            setShots(!isShots);
-          }}
-        >
-        <p>Shots</p>  
-        </button>
-        <div>
-          {isShots
-            ? shots.map((item) => <OpenButton key={item.id} {...item} />)
-            : null}
-        </div>
-
-        <button
-          onClick={() => {
-            setIsCoctails(!isCoctails);
-          }}
-        >
-          <p>Coctails</p>
-        </button>
-        <div>
-          {isCoctails
-            ? coctails.map((item) => <OpenButton key={item.id} {...item} />)
-            : null}
-        </div>    
-
         <button
           onClick={() => {
             setIsVisibleDraftBeer(!isVisibleDraftBeer);
           }}
         >
-      <p>Draf Beer</p>
+      <p>Draf beer</p>
         </button>
         <div>
           {isVisibleDraftBeer
@@ -77,7 +52,7 @@ const ManuEng = () => {
             setIsVisibleBottleBeer(!isVisibleBottelBeer);
           }}
         >
-        <p>Bottel Beer</p>
+        <p>Bottled beer</p>
         </button>
         <div>
           {isVisibleBottelBeer
@@ -90,7 +65,7 @@ const ManuEng = () => {
             setIsVisibleWheatBeer(!isVisibleWheatBeer);
           }}
         >
-       <p> Piwa butelkowe pszeniczne</p>
+       <p>Wheat beer</p>
         </button>
         <div>
           {isVisibleWheatBeer
@@ -105,7 +80,7 @@ const ManuEng = () => {
             setIsVisibleNoAlcoBeer(!isVisibleNoAlcoBeer);
           }}
         >
-        <p>Piwa butelkowe bezalkoholowe</p>
+        <p>Alcohol-free beer</p>
         </button>
         <div>
           {isVisibleNoAlcoBeer
@@ -115,10 +90,36 @@ const ManuEng = () => {
         
         <button
           onClick={() => {
+            setShots(!isShots);
+          }}
+        >
+        <p>Shots</p>  
+        </button>
+        <div>
+          {isShots
+            ? shotsEng.map((item) => <OpenButton key={item.id} {...item} />)
+            : null}
+        </div>
+
+        <button
+          onClick={() => {
+            setIsCoctails(!isCoctails);
+          }}
+        >
+          <p>Coctails</p>
+        </button>
+        <div>
+          {isCoctails
+            ? coctailsEng.map((item) => <OpenButton key={item.id} {...item} />)
+            : null}
+        </div>    
+
+        <button
+          onClick={() => {
             setIsVisibleStrongAlco(!isVisibleStrongAlco);
           }}
         >
-        <p>Alkohole wysokoprocentowe</p>
+        <p>Strong alcohol</p>
         </button>
         <div>
           {isVisibleStrongAlco
@@ -132,7 +133,7 @@ const ManuEng = () => {
             setIsVisibleWins(!isVisibleWins);
           }}
         >
-        <p>Wina i wermuty</p>
+        <p>Wine and vermouth</p>
         </button>
         <div>
           {isVisibleWins
@@ -146,7 +147,7 @@ const ManuEng = () => {
             setIsVisibleNoAlco(!isVisibleNoAlco);
           }}
         >
-        <p>Napoje bezalkoholowe</p>
+        <p> Alcohol-free  beverages </p>
         </button>
         <div>
           {isVisibleNoAlco

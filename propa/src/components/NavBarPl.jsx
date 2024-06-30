@@ -5,16 +5,13 @@ import { HamburgetMenuClose, HamburgetMenuOpen } from "../assets/Icons";
 import FlagaGB from '../assets/images/flaga_GB.svg'
 import NavBarEng from "./NavBarEng";
 
-
-
 const NavBarPl = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   const [clickTwo, setClickTwo ] = useState()
   const handleClickTwo =()=> setClickTwo(!clickTwo) 
-
-
+      
   const list = [
     { name: "Strona główna", path: "/" },
     { name: "Aktualności", path: "Aktualności" },

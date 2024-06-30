@@ -16,7 +16,6 @@
   span {
     color: $colorOrange;
     font-size: 1.5rem;
-    
   }
 }
 
@@ -34,12 +33,10 @@
   cursor: pointer;
   text-decoration: none;
   flex-grow: 1;
-  
-
   img{
-    width: 3rem;
+    width: 4rem;
     margin-top: 0;
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
 }
 
@@ -98,24 +95,15 @@ img {
         z-index: 1;
       }
     }
-  
-    // .nav-item.active {
-      
-    //   border: none;
-    // }
-  
     .nav-links {
       padding: 1.5rem;
       width: 100%;
       display: table;
     }
-  
     .nav-logo.icon {
       width: 2rem;
       height: 2rem;
-    
     }
-  
     .nav-icon {
       display: block;
       position: absolute;
@@ -124,9 +112,7 @@ img {
       transform: translate(-100%, -50%);
       width: 2rem;
       height: 2rem;
-      cursor: pointer;
-
-      
+      cursor: pointer; 
     }
   }
     

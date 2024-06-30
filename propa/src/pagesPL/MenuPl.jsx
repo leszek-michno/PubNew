@@ -32,31 +32,7 @@ const MenuPage = () => {
       <div className="menu">
       
       
-      <button
-          onClick={() => {
-            setShots(!isShots);
-          }}
-        >
-        <p>Szoty</p>  
-        </button>
-        <div>
-          {isShots
-            ? shots.map((item) => <OpenButton key={item.id} {...item} />)
-            : null}
-        </div>
-
-        <button
-          onClick={() => {
-            setIsCoctails(!isCoctails);
-          }}
-        >
-          <p>Koktaile</p>
-        </button>
-        <div>
-          {isCoctails
-            ? coctails.map((item) => <OpenButton key={item.id} {...item} />)
-            : null}
-        </div>    
+      
 
         <button
           onClick={() => {
@@ -112,6 +88,33 @@ const MenuPage = () => {
             : null}
         </div>
         
+        <button
+          onClick={() => {
+            setShots(!isShots);
+          }}
+        >
+        <p>Szoty</p>  
+        </button>
+        <div>
+          {isShots
+            ? shots.map((item) => <OpenButton key={item.id} {...item} />)
+            : null}
+        </div>
+
+        <button
+          onClick={() => {
+            setIsCoctails(!isCoctails);
+          }}
+        >
+          <p>Koktaile</p>
+        </button>
+        <div>
+          {isCoctails
+            ? coctails.map((item) => <OpenButton key={item.id} {...item} />)
+            : null}
+        </div>    
+
+
         <button
           onClick={() => {
             setIsVisibleStrongAlco(!isVisibleStrongAlco);

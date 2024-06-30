@@ -18,7 +18,7 @@ const NavBarEng = () => {
     { name: "News", path: "News" },
     { name: "Menu", path: "Menu_Eng" },
     { name: "Contact", path: "Contact" },
-    { name: "Galeria", path: "Galeria" },
+    { name: "Gallery", path: "Gallery" },
   ];
   const menu = list.map((item) => (
     <li key={item.name} className="nav-item">

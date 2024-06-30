@@ -24,9 +24,12 @@ const ContactPl = () => {
           ></iframe>
         </div>
         <div>
-          <h2>Adres:</h2>
+          <h2>Pub Propaganda</h2>
           <p>ul. Miodowa 20/3</p>
           <p>31-055 Kraków</p>
+          <a href={"mailto:contact@pubpropaganda.eu"}>
+            <span>contact@pubpropaganda.eu</span>
+          </a>
           <a
             href={"https://www.facebook.com/propapub"}
             target="_blank"
@@ -44,6 +47,7 @@ const ContactPl = () => {
           <a href={"mailto:contact@pubpropaganda.eu"}>
             <AiOutlineMail />
           </a>
+  
         </div>
 
         <div className="hours">

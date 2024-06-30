@@ -8,19 +8,31 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  font-size: 0.8rem;
+  color: $colorGrey;
+
+  .social-media {
+    display: flex;
+    width: 33%;
+    font-size: 1rem;
+  }
     a {
-      font-size: 0.8rem;
       text-decoration: none;
-      color: white;
+      width: 100%;
+      margin-top: 1rem;
+      color: $colorGrey;
+      &:hover{
+        color: $colorBlue;
+      }
     }
     div {
-      font-size: 0.8rem;
       width: 33%;
     } 
     p {
       font-size: 0.8rem;
     }
-
+  
+  
   }
 
   @media (max-width: 650px) {
@@ -29,6 +41,9 @@
       gap: 1rem;
       div{
         width: 100%;
+        a{
+          flex-direction: row;
+        }
       }
     }
     

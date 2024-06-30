@@ -1,5 +1,9 @@
 import "../assets/styles/Footer.scss";
-import { NavLink } from "react-router-dom";
+import {
+  AiOutlineInstagram,
+  AiOutlineFacebook,
+  AiOutlineMail,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -12,10 +16,28 @@ const Footer = () => {
           <p>31-055 Kraków</p>
         </div>
         <div>
-          <NavLink to="Kontakt"> Kontakt: </NavLink>
           <a href={"mailto:contact@pubpropaganda.eu"}>
             <p> contact@pubpropaganda.eu</p>
           </a>
+          <div className="social-media">
+          <a
+            href={"https://www.facebook.com/propapub"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineFacebook />
+          </a>
+          <a
+            href={"https://www.instagram.com/pub_propaganda/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineInstagram />
+          </a>
+          <a href={"mailto:contact@pubpropaganda.eu"}>
+            <AiOutlineMail />
+          </a>
+          </div>
         </div>
         <div>copyright@2024Lem-Son</div>
       </div>
