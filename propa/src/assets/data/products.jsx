@@ -14,6 +14,7 @@ export const bottleBeer = [
     { id: 8, name: "Cherry Sour (0,5 l)", price: 18 },
     { id: 9, name: "Double IPA (0,5 l)", price: 18 },
     { id: 10, name: "Gluten-free", price: 18 },
+    { id: 11, name: "Cydr", price: 16 },
   ];
 
 export const bottleWheatBeer = [
@@ -44,6 +45,7 @@ export const strongAlco = [
     { id: 17, name: "Johnny Walker (40 ml)", price: 16 },
     { id: 18, name: "Jack Daniels (40 ml)", price: 17 },
     { id: 19, name: "Jim Beam (40 ml)", price: 16 },
+    { id: 29, name: "Wild Turkey (40 ml)", price: 18 },
     { id: 20, name: "Jameson (40 ml)", price: 17 },
     { id: 22, name: "Ballantines (40 ml)", price: 16 },
     { id: 29, name: "Marker's Mark (40 ml)", price: 22 },
@@ -80,6 +82,8 @@ export const wins = [
     { id: 13, name: "Woda Kinga gaz.(but 350 ml)", price: 8 },
     { id: 14, name: "Kawa", price: 10 },
     { id: 15, name: "Herbata", price: 10 },
+    // { id: 16, name: "Paluszki", price: 8 },
+    // { id: 17, name: "Czipsy", price: 10 },
   ];
 
   export const shots = [
@@ -95,7 +99,6 @@ export const wins = [
     { id: 2, name: "Szarlotka", price: 22, composition: "Żubrówka 40 ml, sok jabłkowy, cynamon" },
     { id: 3, name: "Jager Bomba", price: 28, composition: "Jagermeister 40 ml, Red Bull" },
     { id: 4, name: "Tequila Sunrise", price: 26, composition: "Tequila 40 ml, sok pomarańczowy, grenadyna" },
-    // { id: 5, name: "Antidotum", price: 28, composition: "Gorzka Żołądkowa Miętowa, Becherovka, cytryna, cola" },
     { id: 6, name: "Oko Stalina", price: 21, composition: "piwo 250 ml, sok grejfrutowy, wiśniówka 20 ml" },
     { id: 7, name: "Whiskey Sour", price: 22, composition: "Jameson 40 ml, syrop cukrowy, sok z cytryny" },
   ]
@@ -113,7 +116,6 @@ export const wins = [
     { id: 2, name: "Tatanka", price: 22, composition: "Bison Grass 40 ml, apple juice, cinnamon" },
     { id: 3, name: "Jager Bomb", price: 27, composition: "Jagermeister 40 ml, Red Bull" },
     { id: 4, name: "Tequila Sunrise", price: 26, composition: "Tequila 40 ml, orange juice, grenadine" },
-    // { id: 5, name: "Antidotum", price: 28, composition: "Gorzka Żołądkowa Mint, Becherovka, lemon, cola" },
     { id: 6, name: "Stalin's Eye", price: 21, composition: "beer 250 ml, juice, cherry vodka 20 ml" },
     { id: 7, name: "Whiskey Sour", price: 22, composition: "Jameson 40 ml, sweet syrup, lemon juice" },
   ]

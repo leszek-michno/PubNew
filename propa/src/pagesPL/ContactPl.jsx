@@ -3,7 +3,6 @@ import {
   AiOutlineInstagram,
   AiOutlineFacebook,
   AiOutlineMail,
-  // AiOutlineGoogle,
 } from "react-icons/ai";
 import "../assets/styles/Contact.scss";
 

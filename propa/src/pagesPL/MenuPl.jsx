@@ -30,10 +30,7 @@ const MenuPage = () => {
       <h1>Menu</h1>
     </header>
       <div className="menu">
-      
-      
-      
-
+    
         <button
           onClick={() => {
             setIsVisibleDraftBeer(!isVisibleDraftBeer);
