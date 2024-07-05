@@ -51,11 +51,11 @@ const ContactEng = () => {
         <div className="hours">
           <h2>Opening hours:</h2>
           <p className="colorBlue"> from Monday to Thursday: </p>
-          <p>from 5 pm to 2 am</p>
+          <p>from 5 pm to 2 am;</p>
           <p className="colorBlue">on Friday and Saturday: </p>
-          <p>from 6 pm to 4 am</p>
+          <p>from 6 pm to 4 am;</p>
           <p className="colorBlue">on Suday: </p>
-          <p>from 6 pm to 2 am</p>
+          <p>from 6 pm to 2 am.</p>
         </div>
       </div>
     </>

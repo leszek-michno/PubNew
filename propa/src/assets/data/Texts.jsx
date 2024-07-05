@@ -1,5 +1,29 @@
 import { NavLink } from 'react-router-dom'
 
+
+export const Booking =()=>{
+  return (
+    <div>
+      <p>
+      Nie prowadzimy rezerwacji stolików. 
+      </p>
+    </div>
+  );
+}
+
+export const BookingEng =()=>{
+  return (
+    <div>
+      <p>
+      We are not booking tables. 
+      </p>
+    </div>
+  );
+}
+
+
+
+
 export const Handsome = () => {
     return (
       <div>

@@ -125,7 +125,6 @@ const MenuPage = () => {
             : null}
         </div>
         
-
         <button
           onClick={() => {
             setIsVisibleWins(!isVisibleWins);
@@ -139,7 +138,6 @@ const MenuPage = () => {
             : null}
         </div>
         
-
         <button
           onClick={() => {
             setIsVisibleNoAlco(!isVisibleNoAlco);

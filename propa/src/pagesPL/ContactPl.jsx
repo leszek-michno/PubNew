@@ -52,11 +52,11 @@ const ContactPl = () => {
         <div className="hours">
           <h2>Godziny otwarcia:</h2>
           <p className="colorBlue"> od poniedziałku do czwartku: </p>
-          <p>od godz 17.00 do godz 02.00</p>
+          <p>od godz 17.00 do godz 02.00;</p>
           <p className="colorBlue">w piątek i sobotę: </p>
-          <p>od godz 18.00 do godz 04.00</p>
+          <p>od godz 18.00 do godz 04.00;</p>
           <p className="colorBlue">niedziela: </p>
-          <p>od godz 18.00 do godz 02.00</p>
+          <p>od godz 18.00 do godz 02.00.</p>
         </div>
       </div>
     </>

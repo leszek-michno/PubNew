@@ -39,7 +39,7 @@ const ManuEng = () => {
             setIsVisibleDraftBeer(!isVisibleDraftBeer);
           }}
         >
-      <p>Draf beer</p>
+      <p>Draft beer</p>
         </button>
         <div>
           {isVisibleDraftBeer
