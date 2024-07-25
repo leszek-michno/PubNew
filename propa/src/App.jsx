@@ -12,11 +12,13 @@ import ContactEng from "./pagesEng/ContactEng";
 import MenuEng from "./pagesEng/MenuEng";
 import NavBarPl from "./components/NavBarPl";
 import GalleryEng from "./pagesEng/GalleryEng";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <div className="container">
+        <ScrollToTop/>
         <NavBarPl />
         <div>
           <Routes>

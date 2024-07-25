@@ -2,9 +2,9 @@ import Photo_1 from '../images/IMG3.webp'
 import Photo_2 from '../images/IMG4.webp'
 import Photo_3 from '../images/IMG5.webp'
 import Photo_4 from '../images/IMG6.webp'
-import Photo_5 from '../images/IMG10.jpg'
-import Photo_6 from '../images/IMG11.jpg'
-import Photo_7 from '../images/img13.jpg'
+import Photo_5 from '../images/IMG10.webp'
+import Photo_6 from '../images/IMG11.webp'
+import Photo_7 from '../images/img13.webp'
 
 
  export const ArrayGallery = [

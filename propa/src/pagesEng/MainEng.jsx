@@ -1,13 +1,10 @@
-
-
   import "../assets/styles/MainPL.scss";
   import {
     ContactLinkEng,
     GalleryLinkEng,
     MenuLinkEng,
     NewsLinkEng,
-  } from "../components/HomePageEng";
-  
+  } from "../components/HomePageEng"; 
   const MainEng = () => {
     return (
       <div>
@@ -24,6 +21,4 @@
       </div>
     );
   };
-  
-  
 export default MainEng

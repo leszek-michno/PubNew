@@ -11,8 +11,6 @@ import {
   noAlco,
   shotsEng,
   coctailsEng,
-
-
 } from '../assets/data/products';
 import { OpenButton } from "../components/MenuPosition";
 
@@ -127,7 +125,6 @@ const ManuEng = () => {
             : null}
         </div>
         
-
         <button
           onClick={() => {
             setIsVisibleWins(!isVisibleWins);
@@ -141,7 +138,6 @@ const ManuEng = () => {
             : null}
         </div>
         
-
         <button
           onClick={() => {
             setIsVisibleNoAlco(!isVisibleNoAlco);
@@ -158,9 +154,5 @@ const ManuEng = () => {
     </>
   );
 };
-
-
-
-
 
 export default ManuEng

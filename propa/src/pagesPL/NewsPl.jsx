@@ -12,7 +12,7 @@ const NewsPl = () => {
             <h2 className='titles'>{item.title}</h2>
             <div className='new'>
             <div className='photo'>
-            <img src={item.img} loading='lazy'/>
+            <img src={item.img} loading='lazy' alt='newsphoto'/>
             </div>
            <div className='content'>   
             {item.content}

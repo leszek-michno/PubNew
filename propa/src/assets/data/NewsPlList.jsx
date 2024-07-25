@@ -1,8 +1,8 @@
 
-import Photo_1 from '../images/sepia.jpeg'
-import Photo_2 from '../images/handsome-boys2.png'
+// import Photo_1 from '../images/sepia.webp'
+import Photo_2 from '../images/handsome-boys2.webp'
 import Photo_3 from '../images/IMG_4212.webp'
-import { Booking, BookingEng, Est, EstEng, Handsome, HandsomeEng } from './Texts';
+import { Booking, BookingEng, Handsome, HandsomeEng } from './Texts';
 
 
 // Polish version
@@ -14,12 +14,12 @@ export const NewsPlList = [
     content: <Booking/>,
     img: Photo_3,
   },
-  {
-    id: 2,
-    title: "Wielkanoc 2024",
-    content: <Est/>,
-    img: Photo_1,
-  },
+  // {
+  //   id: 2,
+  //   title: "Wielkanoc 2024",
+  //   content: <Est/>,
+  //   img: Photo_1,
+  // },
   {
     id: 1,
     title: "Koncert Handsome Boys",
@@ -31,19 +31,19 @@ export const NewsPlList = [
 ];
 
 //English version
-export const NewsPlListEng = [
+export const NewsListEng = [
   {
     id: 3,
     title: "Important",
     content: <BookingEng/>,
     img: Photo_3,
   },
-  {
-    id: 2,
-    title: "Easter in Propaganda",
-    content: <EstEng/>,
-    img: Photo_1,
-  },
+  // {
+  //   id: 2,
+  //   title: "Easter in Propaganda",
+  //   content: <EstEng/>,
+  //   img: Photo_1,
+  // },
   {
     id: 1,
     title: "Live Show in Propaganda",
