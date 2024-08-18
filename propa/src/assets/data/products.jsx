@@ -51,12 +51,14 @@ export const strongAlco = [
     { id: 22, name: "Marker's Mark (40 ml)", price: 22 },
     { id: 23, name: "Macallan (40 ml)", price: 40 },
     { id: 24, name: "Talisker (40 ml)", price: 30 },
+    { id: 32, name: "Lagavulin 16 (40 ml)", price: 40 },
     { id: 25, name: "Baczewski Whisky (40 ml)", price: 20 },
     { id: 26, name: "Baileys (40 ml)", price: 16 },
     { id: 27, name: "Kahlua (40 ml)", price: 16 },
     { id: 28, name: "Malibu (40 ml)", price: 16 },
     { id: 29, name: "Tequila Sierra Silver (40 ml)", price: 16 },
     { id: 30, name: "Tequila Reposado (40 ml)", price: 16 },
+    { id: 33, name: "Tequila Olmeca (40 ml)", price: 16 },
     { id: 31, name: "Śliwowica Passover (40 ml)", price: 22 },
   ];  
 

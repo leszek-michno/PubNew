@@ -1,6 +1,28 @@
 import { NavLink } from 'react-router-dom'
 
 
+
+export const HbTwo =()=>{
+  return (
+    <div>
+      <p>
+      W najbliższą sobotę (24 sierpnia) duet Handsome Boys zagra w Pubie
+      Propaganda! Dużo fajnej muzyki w stylu rockabilly i psychobilly.
+      </p>
+    </div>
+  );
+}
+export const HbTwoEng =()=>{
+  return (
+    <div>
+      <p>
+      This Saturday (August 24) the Handsome Boys duo will play at Pub
+      Propaganda! Lots of cool rockabilly and psychobilly music. Start at 8 p.m.
+      </p>
+    </div>
+  );
+}
+
 export const Booking =()=>{
   return (
     <div>

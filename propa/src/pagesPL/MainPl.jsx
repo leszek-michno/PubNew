@@ -8,6 +8,7 @@ import {
 
 const MainPl = () => {
   return (
+    
     <div>
       <header>
         <h1>PUB PROPAGANDA</h1>
@@ -20,6 +21,7 @@ const MainPl = () => {
         <GalleryLink />
         </div>
     </div>
+    
   );
 };
 
