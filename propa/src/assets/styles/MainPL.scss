@@ -1,16 +1,19 @@
 @import "./Variables.scss";
 
   h1{
-    color: $colorBrown;
+    
+    color: $colorDirtyWhite;
     font-size: $fontSizeVeryBig;
     padding: 2%;
     letter-spacing: 0.3rem;
     font-weight: 400;
+    text-shadow: 0rem 0.2rem 0.1rem rgb(15, 13, 13);
   }
   h2{
     font-size: $fontSizeBig;
+    color: $colorDirtyWhite;
     letter-spacing: 0.1rem;
-    color: $colorGrey;
+    
   }
 
 .homeLinks {
@@ -24,6 +27,7 @@
 .logoLinks {
   text-align: center;
   border: solid $colorGrey 0.05rem;
+  box-shadow: 0 0.2rem 0.1rem rgb(15, 13, 13);
   border-radius: 3%;
   width: 12rem;
   height: 14rem; 
@@ -32,7 +36,7 @@
     text-decoration: none;
     p{
       font-size: $fontSizeBig;
-      color: $colorOrange;
+      color: $colorGrey;
       padding: 0.5rem 0;
     }   
   }
