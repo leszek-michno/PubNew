@@ -4,17 +4,13 @@ import {
   AiOutlineFacebook,
   AiOutlineMail,
 } from "react-icons/ai";
+import MusicBG from "./MusicBG";
 
 const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div>
-          <p>Lem-Son Sp. z o.o.</p>
-          <p>NIP 6762644868</p>
-          <p>ul.Miodowa 20/3</p>
-          <p>31-055 Kraków</p>
-        </div>
+      <div> <MusicBG/> copyright@2024Lem-Son  </div>
         <div>
           <a href={"mailto:contact@pubpropaganda.eu"}>
             <p> contact@pubpropaganda.eu</p>
@@ -39,7 +35,12 @@ const Footer = () => {
           </a>
           </div>
         </div>
-        <div>copyright@2024Lem-Son</div>
+        <div>
+          <p>Lem-Son Sp. z o.o.</p>
+          <p>NIP 6762644868</p>
+          <p>ul.Miodowa 20/3</p>
+          <p>31-055 Kraków</p>
+        </div>
       </div>
     </>
   );

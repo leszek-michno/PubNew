@@ -2,16 +2,17 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/styles/NavBar.scss";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "../assets/Icons";
-import FlagaGB from '../assets/images/flaga_GB.svg'
+import FlagaGB from "../assets/images/flaga_GB.svg";
 import NavBarEng from "./NavBarEng";
+// import MusicBG from "./MusicBG";
 
 const NavBarPl = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
-  const [clickTwo, setClickTwo ] = useState()
-  const handleClickTwo =()=> setClickTwo(!clickTwo) 
-      
+  const [clickTwo, setClickTwo] = useState();
+  const handleClickTwo = () => setClickTwo(!clickTwo);
+
   const list = [
     { name: "Strona główna", path: "/" },
     { name: "Aktualności", path: "Aktualności" },
@@ -31,12 +32,11 @@ const NavBarPl = () => {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink to="HomePage" className="nav-logo" >
-            <img src={FlagaGB} alt='flagaGB'
-            onClick={handleClickTwo}
-            />
-            {clickTwo ? <NavBarEng/> : ''}
+          <NavLink to="HomePage" className="nav-logo">
+            <img src={FlagaGB} alt="flagaGB" onClick={handleClickTwo} />
+            {clickTwo ? <NavBarEng /> : ""}
           </NavLink>
+          
           <ul className={click ? "nav-menu active" : "nav-menu"}>{menu}</ul>
           <div className="nav-icon" onClick={handleClick}>
             {click ? (
@@ -48,6 +48,7 @@ const NavBarPl = () => {
                 <HamburgetMenuOpen />
               </span>
             )}
+            
           </div>
         </div>
       </nav>

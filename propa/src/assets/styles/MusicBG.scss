@@ -1,0 +1,14 @@
+@import "./Variables.scss";
+button {
+    width: 6rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+
+    background-color: rgb(73, 11, 11);
+    color: $colorGrey;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.4rem 0.5rem rgb(15, 13, 13);
+}

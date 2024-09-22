@@ -26,8 +26,9 @@
 
 .logoLinks {
   text-align: center;
-  border: solid $colorGrey 0.05rem;
-  box-shadow: 0 0.2rem 0.1rem rgb(15, 13, 13);
+  background-image: linear-gradient(to right, rgb(37, 3, 9),rgba(71,6,6,1));
+  // border: solid $colorGrey 0.05rem;
+  box-shadow: 0 0.4rem 0.5rem rgb(15, 13, 13);
   border-radius: 3%;
   width: 12rem;
   height: 14rem; 
@@ -48,7 +49,7 @@ img{
   
 }
 &:hover {
-  border: solid 0.1rem $colorOrange;
+  border: solid 0.02rem $colorGrey;
   color: $colorGrey;
 }
 }
@@ -83,8 +84,10 @@ img{
     letter-spacing: 0rem;
   }
   h2{
+    display: inline-block;
     font-size: $fontSizeMidi;
     letter-spacing: 0rem;
+    padding: 0 1rem;
   }
   .homeLinks {
     width: 100%;  
@@ -106,7 +109,7 @@ img{
       }
     }
     &:hover {
-      border: solid 0.1rem $colorGrey;
+      border: none;
     
     }
     }

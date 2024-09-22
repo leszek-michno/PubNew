@@ -4,12 +4,17 @@
   margin-bottom: 2rem;
   button{
     width: 800px;
-    background-color: $backcolorblack;   
+    // background-color: $backcolorblack;  
+    // background-color: rgb(41, 8, 8); 
+    background-image: linear-gradient(to right,rgba(71,6,6,1),  rgb(37, 3, 9),rgba(71,6,6,1));
+    box-shadow: 0 0.2rem 0.2rem rgb(15, 13, 13);
     font-size: $fontSizeMidi;
+    font-weight:lighter;
     margin: 2% 0;
-    color: $colorDirtyWhite;
+    color: $colorGrey;
     padding: 0.8rem;
-    border: solid $colorGrey 0.05rem;
+    // border: solid $colorGrey 0.05rem;
+    border: none;
     border-radius: 0.3rem;
     cursor: pointer;
     
@@ -17,6 +22,7 @@
 }
 
 .text_menu {
+  color: $colorDirtyWhite;
   width: 100%;
   display: flex;
   justify-content: space-between;

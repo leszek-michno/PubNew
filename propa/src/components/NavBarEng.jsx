@@ -4,6 +4,7 @@ import "../assets/styles/NavBar.scss";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "../assets/Icons";
 import FlagaPl from "../assets/images/flaga_Polski.svg";
 import NavBarPl from "./NavBarPl";
+// import MusicBG from "./MusicBG";
 
 
 const NavBarEng = () => {
@@ -35,6 +36,7 @@ const NavBarEng = () => {
             <img src={FlagaPl} alt="flagaPl" onClick={handleClickTwo} />
             {clickTwo ? <NavBarPl/> : ''}
           </NavLink>
+          
           <ul className={click ? "nav-menu active" : "nav-menu"}>{menu}</ul>
           <div className="nav-icon" onClick={handleClick}>
             {click ? (
