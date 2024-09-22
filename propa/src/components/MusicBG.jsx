@@ -74,7 +74,7 @@ const MusicBG = () => {
     if (isPlaying) {
       audio.current.play();
     }
-  }, [currentTrackIndex]);
+  }, []);
 
   const handlePlay = () => {
     audio.current.play();
