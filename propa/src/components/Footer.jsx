@@ -10,8 +10,9 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-      <div> <MusicBG/> copyright@2024Lem-Son  </div>
+      
         <div>
+        <MusicBG/>
           <a href={"mailto:contact@pubpropaganda.eu"}>
             <p> contact@pubpropaganda.eu</p>
           </a>
@@ -34,6 +35,7 @@ const Footer = () => {
             <AiOutlineMail />
           </a>
           </div>
+          
         </div>
         <div>
           <p>Lem-Son Sp. z o.o.</p>
@@ -41,6 +43,7 @@ const Footer = () => {
           <p>ul.Miodowa 20/3</p>
           <p>31-055 Kraków</p>
         </div>
+        <div> copyright@2024Lem-Son  </div>
       </div>
     </>
   );

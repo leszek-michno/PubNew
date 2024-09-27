@@ -43,80 +43,6 @@ export const BookingEng =()=>{
   );
 }
 
-
-
-
-export const Handsome = () => {
-    return (
-      <div>
-        <p>
-          W najbliższą sobotę (24 lutego) duet Handsome Boys zagra w Pubie
-          Propaganda! Dużo fajnej muzyki w stylu rockabilly i psychobilly.
-        </p>
-        <p>Początek o godz. 20.00</p>
-      </div>
-    );
-  };
-  
-  export const HandsomeEng = () => {
-    return (
-      <div className="text">
-        <p>
-          This Saturday (February 24) the Handsome Boys duo will play at Pub
-          Propaganda! Lots of cool rockabilly and psychobilly music. Start at 8
-          p.m.
-        </p>
-      </div>
-    );
-  };
-  
-  export const NewYear = () => {
-    return (
-      <div className="text">
-        <p>
-          As every year, we invite you to Propaganda for New Years Eve. The bar
-          will be open from 8:00 p.m. to 5.00. IMPORTANT! We are not booking
-          tables this evening.
-        </p>
-      </div>
-    );
-  };
-  
-  export const Sylwester = () => {
-    return (
-      <div className="text">
-        <p>
-          Jak co roku zapraszamy na Sylwestra do Propagandy. Bar będzie otwarty od
-          godz. 20.00 do godz. 5.00. UWAGA! Nie rezerwujemy stolików tego
-          wieczoru.
-        </p>
-      </div>
-    );
-  };
-  
-  export const Hallow = () => {
-    return (
-      <div className="text">
-        <p>
-          Halloweenowa noc w propagandzie - jedyna taka przerażająca noc. Przyjdź
-          i zapoznaj się z naszym specjalnym, upiornym menu!
-        </p>
-        <p>Drzwi do upiorności otworzą się 31.10 o godz. 17.00</p>
-      </div>
-    );
-  };
-  
-  export const HallowEng = () => {
-    return (
-      <div className="text">
-        <p>
-          Halloween Night at Propaganda - only one night as scary as this. Bring
-          your costume and enjoy our special spooky drinks menu!
-        </p>
-        <p>The doors to horror will open on 31.10 at 5 p.m. </p>
-      </div>
-    );
-  };
   
   export const Tshirt = () => {
     return (
@@ -220,37 +146,4 @@ export const Handsome = () => {
     );
   };
   
-  export const Est = () => {
-    return (
-      <div>
-        <p>Lokal otwarty: </p>
-        <p> - piątek (29 marca) od godz. 18.00 do godz. 4.00; </p>
-        <p>
-          {" "}
-          - sobota (30 marca) od godz. 18.00 do godz. 2.00;{" "}
-        </p>
-        <p>
-          {" "}
-          - niedziela (31 marca) od godz 18.00 do godz. 2.00;
-        </p>
-        <p>
-          {" "}
-          - poniedziałek (1 kwietnia) od 17.00 do godz. 2.00.{" "}
-        </p>
-      </div>
-    );
-  };
-  
-  export const EstEng = () => {
-    return (
-      <div className="text">
-        <br />
-        <p>Pub is open:</p>
-        <p>- Friday (March 29) from 6 pm to 4 am;</p>
-        <p>- Saturday (March 30) from 6 pm to 2 am;</p>
-        <p>- Sunday (March 31) from 6 pm to 2 am </p>
-        <p>- Monday (April 1) from 5 pm to 2 am. </p>
-      </div>
-    );
-  };
-  
+ 

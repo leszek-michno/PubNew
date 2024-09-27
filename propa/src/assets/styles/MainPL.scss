@@ -1,5 +1,6 @@
 @import "./Variables.scss";
 
+
   h1{
     
     color: $colorDirtyWhite;
@@ -27,7 +28,6 @@
 .logoLinks {
   text-align: center;
   background-image: linear-gradient(to right, rgb(37, 3, 9),rgba(71,6,6,1));
-  // border: solid $colorGrey 0.05rem;
   box-shadow: 0 0.4rem 0.5rem rgb(15, 13, 13);
   border-radius: 3%;
   width: 12rem;
@@ -48,10 +48,10 @@ img{
   margin-bottom: 6%;
   
 }
-&:hover {
-  border: solid 0.02rem $colorGrey;
-  color: $colorGrey;
-}
+// &:hover {
+//   border: solid 0.02rem $colorGrey;
+//   color: $colorGrey;
+// }
 }
 
 }
