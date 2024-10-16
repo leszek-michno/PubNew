@@ -5,6 +5,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import "../assets/styles/Contact.scss";
+import ContactForm from "../components/ContactForm";
 
 const ContactPl = () => {
   return (
@@ -14,8 +15,12 @@ const ContactPl = () => {
           <h1>Kontakt</h1>
         </header>
       </div>
-      <div className="contact">
+      <section className="contact">
+      <div className="adress">
         <div>
+        <h2>Pub Propaganda</h2>
+          <p>ul. Miodowa 20/3</p>
+          <p>31-055 Kraków</p>
           <iframe
             title="Propaganda"
             loading="lazy"
@@ -23,12 +28,6 @@ const ContactPl = () => {
           ></iframe>
         </div>
         <div>
-          <h2>Pub Propaganda</h2>
-          <p>ul. Miodowa 20/3</p>
-          <p>31-055 Kraków</p>
-          <a href={"mailto:contact@pubpropaganda.eu"}>
-            <span>contact@pubpropaganda.eu</span>
-          </a>
           <a
             href={"https://www.facebook.com/propapub"}
             target="_blank"
@@ -46,9 +45,7 @@ const ContactPl = () => {
           <a href={"mailto:contact@pubpropaganda.eu"}>
             <AiOutlineMail />
           </a>
-  
         </div>
-
         <div className="hours">
           <h2>Godziny otwarcia:</h2>
           <p className="colorBlue"> od poniedziałku do czwartku: </p>
@@ -59,6 +56,10 @@ const ContactPl = () => {
           <p>od godz 18.00 do godz 02.00.</p>
         </div>
       </div>
+      <div><ContactForm/></div>
+      </section>
+      
+      
     </>
   );
 };

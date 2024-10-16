@@ -5,8 +5,10 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import "../assets/styles/Contact.scss";
+import ContactFormEng from "../components/ContactFormEng";
 
-const ContactEng = () => {
+
+const ContactPl = () => {
   return (
     <>
       <div>
@@ -14,8 +16,12 @@ const ContactEng = () => {
           <h1>Contact</h1>
         </header>
       </div>
-      <div className="contact">
+      <section className="contact">
+      <div className="adress">
         <div>
+        <h2>Pub Propaganda</h2>
+          <p>Miodowa str. 20/3</p>
+          <p>31-055 Kraków</p>
           <iframe
             title="Propaganda"
             loading="lazy"
@@ -23,12 +29,6 @@ const ContactEng = () => {
           ></iframe>
         </div>
         <div>
-          <h2>Pub Propaganda</h2>
-          <p>ul. Miodowa 20/3</p>
-          <p>31-055 Kraków</p>
-          <a href={"mailto:contact@pubpropaganda.eu"}>
-            <span>contact@pubpropaganda.eu</span>
-          </a>
           <a
             href={"https://www.facebook.com/propapub"}
             target="_blank"
@@ -47,9 +47,8 @@ const ContactEng = () => {
             <AiOutlineMail />
           </a>
         </div>
-
         <div className="hours">
-          <h2>Opening hours:</h2>
+        <h2>Opening hours:</h2>
           <p className="colorBlue"> from Monday to Thursday: </p>
           <p>from 5 pm to 2 am;</p>
           <p className="colorBlue">on Friday and Saturday: </p>
@@ -58,8 +57,14 @@ const ContactEng = () => {
           <p>from 6 pm to 2 am.</p>
         </div>
       </div>
+      <div><ContactFormEng/></div>
+      </section>
+      
+      
     </>
-  )
-}
+  );
+};
 
-export default ContactEng
+export default ContactPl;
+
+
