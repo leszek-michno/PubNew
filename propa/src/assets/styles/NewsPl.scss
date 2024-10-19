@@ -23,13 +23,13 @@
     justify-content: space-around;
     .content {
       width: 45%;
+      font-size: $fontSizeSmall;
     }
     .photo {
       width: 45%;
       img {
         width: 100%;
-        margin: 0;
-        
+        margin: 0;     
       }
     }
   }

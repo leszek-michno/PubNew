@@ -26,8 +26,12 @@ export const Booking = () => {
   return (
     <div>
       <ul>
-        <li>Płacić można gotówką, kartą lub mobilnie</li>
-        <li>Nie prowadzimy rezerwacji stolików </li>
+        <li>
+          <p>Płacić można gotówką, kartą lub mobilnie</p>
+        </li>
+        <li>
+          <p>Nie prowadzimy rezerwacji stolików</p>
+        </li>
       </ul>
     </div>
   );
