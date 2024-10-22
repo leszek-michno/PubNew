@@ -9,6 +9,16 @@
   }
 }
 
+@keyframes head {
+  from {
+    scale: 100%;
+  }
+  to{
+    scale: 105%;
+  }
+}
+
+
 
   h1{
     color: $colorDirtyWhite;
@@ -16,25 +26,20 @@
     padding: 2%;
     letter-spacing: 0.3rem;
     font-weight: 400;
-    text-shadow: 0rem 0.2rem 0.1rem rgb(15, 13, 13);
-
-    animation-name: propa;
-    animation-duration: 2s;
-
-
+    text-shadow: 0rem 0.2rem 0.1rem rgb(15, 13, 13);    
   }
 
+  // .animeFirst{
+  //   animation-name: propa;
+  //   animation-duration: 1s;
+  // }
+
   .anime{
-    font-size: $fontSizeBig;
-    color: $colorDirtyWhite;
-    letter-spacing: 0.1rem;
-    
     opacity: 0; 
     animation-name: propa;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 0.3s;
     animation-fill-mode: both;
-
   }
 
   h2{
@@ -74,13 +79,15 @@ img{
   margin-bottom: 6%;
   
 }
-// &:hover {
-//   border: solid 0.02rem $colorGrey;
-//   color: $colorGrey;
-// }
+&:hover {  
+    animation-name: head;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+}
 }
 
-}
+
 
 .imgGray{
   filter: grayscale(100%);

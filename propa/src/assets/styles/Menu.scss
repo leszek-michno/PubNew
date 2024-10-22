@@ -1,4 +1,13 @@
 @import "./Variables.scss";
+@keyframes menu {
+ from{
+ scale: 0;
+ }
+ to{
+ scale: 1;
+ }
+  
+}
 
 .menu {
   margin-bottom: 2rem;
@@ -26,6 +35,8 @@
   justify-content: space-between;
   font-size: $fontSizeSmall;
   line-height: 2;
+  animation-name: menu;
+  animation-duration: 0.3s;
   .p_left{
     width: 250px;
   }

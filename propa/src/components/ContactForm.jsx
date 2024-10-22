@@ -37,11 +37,11 @@ const ContactForm = () => {
           <form onSubmit={onSubmit}>
             <h2>Napisz do nas</h2>
             <div className="input-box">
-              <label htmlFor="">Twoje imię</label>
+              <label>Twoje imię</label>
               <input type="text" placeholder="wpisz imię" name='name' required/>
             </div>
             <div className="input-box">
-              <label htmlFor="">Twój e-mail adres</label>
+              <label>Twój e-mail adres</label>
               <input type="email" placeholder="wpisz swój e-mail adres" name='email' required/>
             </div>
             <div className="input-box">

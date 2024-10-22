@@ -1,13 +1,20 @@
 
 import Photo_2 from '../images/hbpropa.jpg'
 import Photo_3 from '../images/IMG_4212.webp'
-import { Booking, BookingEng, HbTwo, HbTwoEng } from './Texts';
+import Photo_4 from '../images/swieto.jpeg'
+import { Booking, BookingEng, HbTwo, HbTwoEng, Holiday, HolidayEng } from './Texts';
 
 
 // Polish version
 
 export const NewsPlList = [
   
+  {
+    id: 4,
+    title: "Święto Zmarłych",
+    content: <Holiday/>,
+    img: Photo_4,
+  },
   {
     id: 3,
     title: "Ważne",
@@ -24,6 +31,12 @@ export const NewsPlList = [
 
 //English version
 export const NewsListEng = [
+  {
+    id: 4,
+    title: "November 1st",
+    content: <HolidayEng/>,
+    img: Photo_4,
+  },
   {
     id: 3,
     title: "Important",

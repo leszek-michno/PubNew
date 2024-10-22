@@ -1,5 +1,26 @@
 import { NavLink } from "react-router-dom";
 
+export const Holiday = () => {
+  return (
+    <div>
+      <p>
+      W Święto Zmarłych (1 listopada) jesteśmy otwarci tak jak zawsze w piątki, czyli od godz. 18.00 do godz. 4.00. 
+      </p>
+    </div>
+  );
+};
+export const HolidayEng = () => {
+  return (
+    <div>
+      <p>
+      On November 1st, we will be open as usual on Fridays, from 6:00 p.m. to 4:00 a.m.
+      </p>
+    </div>
+  );
+};
+
+
+
 export const HbTwo = () => {
   return (
     <div>
@@ -21,6 +42,8 @@ export const HbTwoEng = () => {
     </div>
   );
 };
+
+
 
 export const Booking = () => {
   return (
