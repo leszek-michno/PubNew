@@ -3,7 +3,7 @@ import "../assets/styles/Gallery.scss";
 
 const Gallery = () => {
   return (
-    <>
+    <div className="bg">
       <header>
         <h1>Galeria</h1>
       </header>
@@ -14,7 +14,7 @@ const Gallery = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 export default Gallery;

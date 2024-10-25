@@ -4,13 +4,14 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin-bottom: 2rem;
   }
   
   .slider-image {
-    width: 800px;
-    margin: 3rem 0;
+    width: 900px;
+    margin: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(33, 1, 1);
   }
+
 
   @media screen and (max-width: 900px){
  
@@ -19,8 +20,8 @@
     }
     
     .slider-image {
-      width: 90%;
-      margin: 10% 5%;
+      width: 96%;
+      margin: 5% 2%;
 
     }
     
