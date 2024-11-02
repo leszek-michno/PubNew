@@ -4,7 +4,6 @@ import "../assets/styles/NavBar.scss";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "../assets/Icons";
 import FlagaPl from "../assets/images/flaga_Polski.svg";
 import NavBarPl from "./NavBarPl";
-// import MusicBG from "./MusicBG";
 
 
 const NavBarEng = () => {

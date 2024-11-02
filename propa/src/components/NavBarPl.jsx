@@ -4,7 +4,7 @@ import "../assets/styles/NavBar.scss";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "../assets/Icons";
 import FlagaGB from "../assets/images/flaga_GB.svg";
 import NavBarEng from "./NavBarEng";
-// import MusicBG from "./MusicBG";
+
 
 const NavBarPl = () => {
   const [click, setClick] = useState(false);

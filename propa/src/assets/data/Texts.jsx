@@ -1,5 +1,27 @@
 import { NavLink } from "react-router-dom";
 
+
+
+export const Halloween = () => {
+  return (
+    <div>
+      <p>
+      Prawdopodobnie będzie trochę strasznie, ale na pewno będzie kolorowo. Zaczynamy w najbliższy czwartek (31.10.2024) od godz. 17.00.
+      </p>
+    </div>
+  );
+};
+export const HalloweenEng = () => {
+  return (
+    <div>
+      <p>
+      It will probably be a little scary, but it will definitely be colorful. We start on Thursday (10/31/2024) at 5:00 p.m.
+      </p>
+    </div>
+  );
+};
+
+
 export const Holiday = () => {
   return (
     <div>

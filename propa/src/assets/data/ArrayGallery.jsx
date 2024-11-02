@@ -12,10 +12,6 @@ import Photo_7 from '../images/img13.webp'
         id: 1,
         image: Photo_1,
     },
-    // {
-    //     id: 2,
-    //     image: Photo_2,
-    // }, 
     {
         id: 3,
         image: Photo_3,
