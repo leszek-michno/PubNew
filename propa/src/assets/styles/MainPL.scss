@@ -29,11 +29,6 @@
     text-shadow: 0rem 0.2rem 0.1rem rgb(15, 13, 13);    
   }
 
-  // .animeFirst{
-  //   animation-name: propa;
-  //   animation-duration: 1s;
-  // }
-
   .anime{
     opacity: 0; 
     animation-name: propa;
@@ -88,7 +83,6 @@ img{
 }
 
 
-
 .imgGray{
   filter: grayscale(100%);
   width: 10rem;
@@ -115,6 +109,7 @@ img{
   h1{
     font-size: 2.5rem;
     letter-spacing: 0rem;
+    text-shadow: none;  
   }
   h2{
     display: inline-block;

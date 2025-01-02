@@ -21,6 +21,7 @@ const Footer = () => {
             href={"https://www.facebook.com/propapub"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit our Facebook page"
           >
             <AiOutlineFacebook />
           </a>
@@ -28,10 +29,15 @@ const Footer = () => {
             href={"https://www.instagram.com/pub_propaganda/"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit our Instagram page"
           >
             <AiOutlineInstagram />
           </a>
-          <a href={"mailto:contact@pubpropaganda.eu"}>
+          <a 
+          href={"mailto:contact@pubpropaganda.eu"}
+          aria-label="Send message to us"
+          >
+          
             <AiOutlineMail />
           </a>
           </div>

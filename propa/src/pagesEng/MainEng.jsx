@@ -9,7 +9,7 @@
     return (
       <div>
         <header>
-          <h1 className="animeFirst">PUB PROPAGANDA</h1>
+          <h1>PUB PROPAGANDA</h1>
           <h2 className="anime">One of the oldest pubs in Krakow</h2>
         </header> 
           <div className="homeLinks"> 

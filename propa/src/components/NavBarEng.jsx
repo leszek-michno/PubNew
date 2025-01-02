@@ -5,7 +5,6 @@ import { HamburgetMenuClose, HamburgetMenuOpen } from "../assets/Icons";
 import FlagaPl from "../assets/images/flaga_Polski.svg";
 import NavBarPl from "./NavBarPl";
 
-
 const NavBarEng = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -33,9 +32,9 @@ const NavBarEng = () => {
         <div className="nav-container">
           <NavLink to="/" className="nav-logo">
             <img src={FlagaPl} alt="flagaPl" onClick={handleClickTwo} />
-            {clickTwo ? <NavBarPl/> : ''}
+            {clickTwo ? <NavBarPl /> : ""}
           </NavLink>
-          
+
           <ul className={click ? "nav-menu active" : "nav-menu"}>{menu}</ul>
           <div className="nav-icon" onClick={handleClick}>
             {click ? (
@@ -53,6 +52,4 @@ const NavBarEng = () => {
     </>
   );
 };
-
 export default NavBarEng;
-

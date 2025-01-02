@@ -1,6 +1,64 @@
 import { NavLink } from "react-router-dom";
 
 
+export const FirstPl = () => {
+  return (
+    <div>
+      <p>
+      Dzisiaj (01.01.2025) jesteśmy otwarci od godz. 18.00. 
+      </p>
+    </div>
+  );
+};
+
+
+export const FirstEng = () => {
+  return (
+    <div>
+      <p>
+      Today (01.01.2025) we are open from 6:00 PM.
+      </p>
+    </div>
+  );
+};
+
+export const ChristmesPl = () => {
+  return (
+    <div>
+      <p>
+      Jesteśmy otwarci w Wigilię i Święta! 24 grudnia od godz 18.00, a 25 - 26 grudnia od godz. 17.00.
+      </p>
+    </div>
+  );
+};
+export const ChristmesEng = () => {
+  return (
+    <div>
+      <p>
+      We are open on Christmas Eve and Christmas Day! December 24th from 6:00 PM, and December 25th and 26th from 5:00 PM.
+      </p>
+    </div>
+  );
+};
+
+export const NewYearPl = () => {
+  return (
+    <div>
+      <p>
+      Tego wieczoru jesteśmy otwarci dla wszystkich! Nie prowadzimy rezerwacji miejsc. Zaczynamy od godz. 20.00 🥳
+      </p>
+    </div>
+  );
+};
+export const NewYearEng = () => {
+  return (
+    <div>
+      <p>
+      This evening we are open to everyone! We do not take reservations. We start at 8:00 PM 🥳
+      </p>
+    </div>
+  );
+};
 
 export const Halloween = () => {
   return (
