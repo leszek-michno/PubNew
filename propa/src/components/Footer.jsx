@@ -44,8 +44,7 @@ const Footer = () => {
           
         </div>
         <div>
-          <p>Lem-Son Sp. z o.o.</p>
-          <p>NIP 6762644868</p>
+          <p>Pub Propaganda</p>
           <p>ul.Miodowa 20/3</p>
           <p>31-055 Kraków</p>
         </div>

@@ -15,6 +15,7 @@ const ContactPl = () => {
         <header>
           <h1>Contact</h1>
         </header>
+        <p className="booking">🍻 We do not make reservations 🍻 </p>
       </div>
       <section className="contact">
       <div className="adress">

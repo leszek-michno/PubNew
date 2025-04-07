@@ -4,10 +4,14 @@
   font-weight: 200; 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: black;
-  background: radial-gradient(circle, rgb(100, 25, 25) 30%, rgb(0, 0, 5) 95%);
+  // background-color: black;
+  background: radial-gradient(circle, rgb(100, 25, 25) 30%, rgb(0, 0, 5) 75%);
+  // background-attachment: fixed;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
+
 }

@@ -7,6 +7,7 @@ const NewsEng = () => {
       <header>
         <h1>News</h1>
       </header>
+      <div className='info'>
         {NewsListEng.map((item) => (
           <div key={item.id} className='news'>
             <h2 className='titles'>{item.title}</h2>
@@ -20,7 +21,7 @@ const NewsEng = () => {
             </div>
           </div>
         ))}
-      
+      </div>
     </>
   )
 }

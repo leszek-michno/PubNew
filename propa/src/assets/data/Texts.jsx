@@ -1,23 +1,65 @@
 import { NavLink } from "react-router-dom";
 
-
-export const FirstPl = () => {
+export const EasterPL = () => {
   return (
     <div>
-      <p>
-      Dzisiaj (01.01.2025) jesteśmy otwarci od godz. 18.00. 
-      </p>
+      <ul>
+        {" "}
+        W Święta Wielkanocne, jak i w piątek i sobotę przed świętami, jesteśmy
+        otwarci jak zawsze:
+        <li>
+          <p>
+            w piątek (18 kwietnia) i sobotę (19 kwietnia) od godz. 18.00 do
+            4.00;
+          </p>
+        </li>
+        <li>
+          <p>w niedzielę (20 kwietnia) od godz. 18.00 do 2.00;</p>
+        </li>
+        <li>
+          <p>w poniedziałek (21 kwietnia) od 17.00 do 2.00.</p>
+        </li>
+      </ul>
     </div>
   );
 };
 
+export const EasterEng = () => {
+  return (
+    <div>
+      <ul>
+        {" "}
+        On Easter, as well as on the Friday and Saturday before the holidays, we
+        are open as usual:
+        <li>
+          <p>
+            on Friday (April 18) and Saturday (April 19) from 6:00 PM to 4:00
+            AM;
+          </p>
+        </li>
+        <li>
+          <p>on Sunday (April 20) from 6:00 PM to 2:00 AM;</p>
+        </li>
+        <li>
+          <p>on Monday (April 21) from 5:00 PM to 2:00 AM.</p>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export const FirstPl = () => {
+  return (
+    <div>
+      <p>Dzisiaj (01.01.2025) jesteśmy otwarci od godz. 18.00.</p>
+    </div>
+  );
+};
 
 export const FirstEng = () => {
   return (
     <div>
-      <p>
-      Today (01.01.2025) we are open from 6:00 PM.
-      </p>
+      <p>Today (01.01.2025) we are open from 6:00 PM.</p>
     </div>
   );
 };
@@ -26,7 +68,8 @@ export const ChristmesPl = () => {
   return (
     <div>
       <p>
-      Jesteśmy otwarci w Wigilię i Święta! 24 grudnia od godz 18.00, a 25 - 26 grudnia od godz. 17.00.
+        Jesteśmy otwarci w Wigilię i Święta! 24 grudnia od godz 18.00, a 25 - 26
+        grudnia od godz. 17.00.
       </p>
     </div>
   );
@@ -35,7 +78,8 @@ export const ChristmesEng = () => {
   return (
     <div>
       <p>
-      We are open on Christmas Eve and Christmas Day! December 24th from 6:00 PM, and December 25th and 26th from 5:00 PM.
+        We are open on Christmas Eve and Christmas Day! December 24th from 6:00
+        PM, and December 25th and 26th from 5:00 PM.
       </p>
     </div>
   );
@@ -45,7 +89,8 @@ export const NewYearPl = () => {
   return (
     <div>
       <p>
-      Tego wieczoru jesteśmy otwarci dla wszystkich! Nie prowadzimy rezerwacji miejsc. Zaczynamy od godz. 20.00 🥳
+        Tego wieczoru jesteśmy otwarci dla wszystkich! Nie prowadzimy rezerwacji
+        miejsc. Zaczynamy od godz. 20.00 🥳
       </p>
     </div>
   );
@@ -54,7 +99,8 @@ export const NewYearEng = () => {
   return (
     <div>
       <p>
-      This evening we are open to everyone! We do not take reservations. We start at 8:00 PM 🥳
+        This evening we are open to everyone! We do not take reservations. We
+        start at 8:00 PM 🥳
       </p>
     </div>
   );
@@ -64,7 +110,8 @@ export const Halloween = () => {
   return (
     <div>
       <p>
-      Prawdopodobnie będzie trochę strasznie, ale na pewno będzie kolorowo. Zaczynamy w najbliższy czwartek (31.10.2024) od godz. 17.00.
+        Prawdopodobnie będzie trochę strasznie, ale na pewno będzie kolorowo.
+        Zaczynamy w najbliższy czwartek (31.10.2024) od godz. 17.00.
       </p>
     </div>
   );
@@ -73,18 +120,19 @@ export const HalloweenEng = () => {
   return (
     <div>
       <p>
-      It will probably be a little scary, but it will definitely be colorful. We start on Thursday (10/31/2024) at 5:00 p.m.
+        It will probably be a little scary, but it will definitely be colorful.
+        We start on Thursday (10/31/2024) at 5:00 p.m.
       </p>
     </div>
   );
 };
 
-
 export const Holiday = () => {
   return (
     <div>
       <p>
-      W Święto Zmarłych (1 listopada) jesteśmy otwarci tak jak zawsze w piątki, czyli od godz. 18.00 do godz. 4.00. 
+        W Święto Zmarłych (1 listopada) jesteśmy otwarci tak jak zawsze w
+        piątki, czyli od godz. 18.00 do godz. 4.00.
       </p>
     </div>
   );
@@ -93,13 +141,12 @@ export const HolidayEng = () => {
   return (
     <div>
       <p>
-      On November 1st, we will be open as usual on Fridays, from 6:00 p.m. to 4:00 a.m.
+        On November 1st, we will be open as usual on Fridays, from 6:00 p.m. to
+        4:00 a.m.
       </p>
     </div>
   );
 };
-
-
 
 export const HbTwo = () => {
   return (
@@ -123,19 +170,12 @@ export const HbTwoEng = () => {
   );
 };
 
-
-
 export const Booking = () => {
   return (
     <div>
-      <ul>
-        <li>
-          <p>Płacić można gotówką, kartą lub mobilnie</p>
-        </li>
-        <li>
-          <p>Nie prowadzimy rezerwacji stolików</p>
-        </li>
-      </ul>
+      <p>Płacić można gotówką, kartą lub mobilnie.</p>
+      <br />
+      <p>Nie prowadzimy rezerwacji stolików.</p>
     </div>
   );
 };
@@ -143,10 +183,9 @@ export const Booking = () => {
 export const BookingEng = () => {
   return (
     <div>
-      <ul>
-        <li>You can pay by cash, card or mobile</li>
-        <li>We do not do table reservations </li>
-      </ul>
+      <p>You can pay by cash, card or mobile.</p>
+      <br />
+      <p>We do not do table reservations. </p>
     </div>
   );
 };

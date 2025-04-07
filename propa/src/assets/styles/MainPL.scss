@@ -17,9 +17,6 @@
     scale: 105%;
   }
 }
-
-
-
   h1{
     color: $colorDirtyWhite;
     font-size: $fontSizeVeryBig;
@@ -42,6 +39,38 @@
     color: $colorDirtyWhite;
     letter-spacing: 0.1rem;
   }
+
+h3 {
+  width: 16rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem; 
+  margin-top: rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgb(15, 13, 13);
+
+
+  &:hover {
+    animation-name: head;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+  
+  a {
+  font-size: $fontSizeMidi;
+  color: $colorDirtyWhite;
+  text-decoration: none;
+  // border-radius: 0.5rem;
+  // padding: 0.5rem 1rem; 
+  // margin-top: rem;
+  // box-shadow: 0.2rem 0.2rem 0.2rem rgb(15, 13, 13);
+  &:hover {
+    animation-name: head;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+  }
+}
+
 
 .homeLinks {
   display: flex;
