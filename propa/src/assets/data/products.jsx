@@ -86,6 +86,7 @@ export const wins = [
     { id: 9, name: "Sok grejfrutowy (250 ml)", price: 8 },
     { id: 10, name: "Sok jabłkowy (250 ml)", price: 8 },
     { id: 11, name: "Sok porzeczkowy (250 ml)", price: 8 },
+    { id: 16, name: "Sok pomidorowy (200 ml)", price: 8 },
     { id: 12, name: "Woda Kinga (but 350 ml)", price: 8 },
     { id: 13, name: "Woda Kinga gaz.(but 350 ml)", price: 8 },
     { id: 14, name: "Kawa", price: 10 },

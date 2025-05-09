@@ -1,0 +1,30 @@
+@import "./Variables.scss";
+@keyframes head {
+  from {
+    scale: 100%;
+  }
+  to{
+    scale: 105%;
+  }
+}
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 800px;
+  button {
+    width: 25rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: $colorDirtyWhite;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(15, 13, 13);
+    &:hover {
+    animation-name: head;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+  }
+}

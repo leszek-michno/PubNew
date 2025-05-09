@@ -6,6 +6,7 @@ import Photo_6 from "../images/NewYearPropa.jpg";
 import Photo_7 from "../images/Christ.jpg";
 import Photo_8 from "../images/1st.jpeg";
 import Photo_9 from "../images/pubEaster.jpg";
+import Photo_10 from "../images/hbswpropa.jpg"; 
 import {
   Booking,
   BookingEng,
@@ -23,11 +24,20 @@ import {
   NewYearPl,
   EasterPL,
   EasterEng,
+  HbsGig,
+  HbsGigEng
 } from "./Texts";
 
 // Polish version
 
 export const NewsPlList = [
+  {
+    id: 0,
+    title: "Świąteczne rockendrollowanie",
+    content: <HbsGig />,
+    img: Photo_10,
+
+  },
   {
     id: 1,
     title: "Święta Wielkanocne",
@@ -82,9 +92,16 @@ export const NewsPlList = [
 //English version
 
 export const NewsListEng = [
+  
+  {
+    id: 0,
+    title: "Easter Gig",
+    content: <HbsGigEng />,
+    img: Photo_10,
+  },
   {
     id: 1,
-    title: "Święta Wielkanocne",
+    title: "Easter Holidays",
     content: <EasterEng />,
     img: Photo_9,
   },

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import '../assets/styles/Menu.scss'
 import { 
@@ -15,144 +14,116 @@ import {
 import { OpenButton } from "../components/MenuPosition";
 
 const ManuEng = () => {
-  const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState();
-  const [isVisibleBottelBeer, setIsVisibleBottleBeer] = useState();
-  const [isVisibleWheatBeer, setIsVisibleWheatBeer] = useState();
-  const [isVisibleNoAlcoBeer, setIsVisibleNoAlcoBeer] = useState();
-  const [isVisibleStrongAlco, setIsVisibleStrongAlco] = useState();
-  const [isVisibleWins, setIsVisibleWins] = useState();
-  const [isVisibleNoAlco, setIsVisibleNoAlco] = useState();
-  const [isShots, setShots] = useState();
-  const [isCoctails, setIsCoctails] = useState();
+  const [sectionsVisibility, setSectionsVisibility] = useState({
+    draftBeer: false,
+    bottleBeer: false,
+    wheatBeer: false,
+    noAlcoBeer: false,
+    strongAlco: false,
+    wins: false,
+    noAlco: false,
+    shots: false,
+    coctails: false,
+  });
 
+  const toggleSection = (section) => {
+    setSectionsVisibility(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
+  };
 
   return (
     <>  
-    <header>
-      <h1>Menu</h1>
-    </header>
+      <header>
+        <h1>Menu</h1>
+      </header>
       <div className="menu">
-        <button
-          onClick={() => {
-            setIsVisibleDraftBeer(!isVisibleDraftBeer);
-          }}
-        >
-      <p>Draft beer</p>
+
+        <button onClick={() => toggleSection('draftBeer')}>
+          <p>Draft beer</p>
         </button>
         <div>
-          {isVisibleDraftBeer
+          {sectionsVisibility.draftBeer
             ? draftBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleBottleBeer(!isVisibleBottelBeer);
-          }}
-        >
-        <p>Bottled beer</p>
+
+        <button onClick={() => toggleSection('bottleBeer')}>
+          <p>Bottled beer</p>
         </button>
         <div>
-          {isVisibleBottelBeer
+          {sectionsVisibility.bottleBeer
             ? bottleBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleWheatBeer(!isVisibleWheatBeer);
-          }}
-        >
-       <p>Wheat beer</p>
+
+        <button onClick={() => toggleSection('wheatBeer')}>
+          <p>Wheat beer</p>
         </button>
         <div>
-          {isVisibleWheatBeer
-            ? bottleWheatBeer.map((item) => (
-                <OpenButton key={item.id} {...item} />
-              ))
+          {sectionsVisibility.wheatBeer
+            ? bottleWheatBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleNoAlcoBeer(!isVisibleNoAlcoBeer);
-          }}
-        >
-        <p>Alcohol-free beer</p>
+
+        <button onClick={() => toggleSection('noAlcoBeer')}>
+          <p>Alcohol-free beer</p>
         </button>
         <div>
-          {isVisibleNoAlcoBeer
+          {sectionsVisibility.noAlcoBeer
             ? noAlcoBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setShots(!isShots);
-          }}
-        >
-        <p>Shots</p>  
+
+        <button onClick={() => toggleSection('shots')}>
+          <p>Shots</p>
         </button>
         <div>
-          {isShots
+          {sectionsVisibility.shots
             ? shotsEng.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
 
-        <button
-          onClick={() => {
-            setIsCoctails(!isCoctails);
-          }}
-        >
+        <button onClick={() => toggleSection('coctails')}>
           <p>Coctails</p>
         </button>
         <div>
-          {isCoctails
+          {sectionsVisibility.coctails
             ? coctailsEng.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
-        </div>    
+        </div>
 
-        <button
-          onClick={() => {
-            setIsVisibleStrongAlco(!isVisibleStrongAlco);
-          }}
-        >
-        <p>Strong alcohol</p>
+        <button onClick={() => toggleSection('strongAlco')}>
+          <p>Strong alcohol</p>
         </button>
         <div>
-          {isVisibleStrongAlco
+          {sectionsVisibility.strongAlco
             ? strongAlco.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleWins(!isVisibleWins);
-          }}
-        >
-        <p>Wine and vermouth</p>
+
+        <button onClick={() => toggleSection('wins')}>
+          <p>Wine and vermouth</p>
         </button>
         <div>
-          {isVisibleWins
+          {sectionsVisibility.wins
             ? wins.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleNoAlco(!isVisibleNoAlco);
-          }}
-        >
-        <p> Alcohol-free  beverages </p>
+
+        <button onClick={() => toggleSection('noAlco')}>
+          <p>Alcohol-free beverages</p>
         </button>
         <div>
-          {isVisibleNoAlco
+          {sectionsVisibility.noAlco
             ? noAlco.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
-        </div> 
+        </div>
+
       </div>
     </>
   );
 };
 
-export default ManuEng
+export default ManuEng;

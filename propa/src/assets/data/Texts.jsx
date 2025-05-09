@@ -1,5 +1,27 @@
 import { NavLink } from "react-router-dom";
 
+
+
+export const HbsGig = () => {
+  return (
+    <div>
+      <p>
+      W najbliższą niedzielę (20 kwietnia) zagra u nas Handsome Boys. Start o godz. 20.00. Wstęp wolny!
+      </p>
+    </div>
+  );
+};
+
+export const HbsGigEng = () => {
+  return (
+    <div>
+      <p>
+      This coming Sunday (April 20) the Handsome Boys duo will play at Pub Propaganda! Lots of cool rockabilly and psychobilly music. Starting at 8:00 PM.
+      </p>
+    </div>
+  );
+};
+
 export const EasterPL = () => {
   return (
     <div>

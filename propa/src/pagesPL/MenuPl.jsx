@@ -13,140 +13,109 @@ import {shots,
 import { OpenButton } from "../components/MenuPosition";
 
 const MenuPage = () => {
-  const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState();
-  const [isVisibleBottelBeer, setIsVisibleBottleBeer] = useState();
-  const [isVisibleWheatBeer, setIsVisibleWheatBeer] = useState();
-  const [isVisibleNoAlcoBeer, setIsVisibleNoAlcoBeer] = useState();
-  const [isVisibleStrongAlco, setIsVisibleStrongAlco] = useState();
-  const [isVisibleWins, setIsVisibleWins] = useState();
-  const [isVisibleNoAlco, setIsVisibleNoAlco] = useState();
-  const [isShots, setShots] = useState();
-  const [isCoctails, setIsCoctails] = useState();
+  const [sectionsVisibility, setSectionsVisibility] = useState({
+    draftBeer: false,
+    bottleBeer: false,
+    wheatBeer: false,
+    noAlcoBeer: false,
+    strongAlco: false,
+    wins: false,
+    noAlco: false,
+    shots: false,
+    coctails: false
+  });
 
+  const toggleSection = (section) => {
+    setSectionsVisibility(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
+  };
 
   return (
     <>  
-    <header>
-      <h1>Menu</h1>
-    </header>
+      <header>
+        <h1>Menu</h1>
+      </header>
       <div className="menu">
-    
-        <button
-          onClick={() => {
-            setIsVisibleDraftBeer(!isVisibleDraftBeer);
-          }}
-        >
-      <p>Piwa lane</p>
+
+        <button onClick={() => toggleSection('draftBeer')}>
+          <p>Piwa lane</p>
         </button>
         <div>
-          {isVisibleDraftBeer
+          {sectionsVisibility.draftBeer
             ? draftBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleBottleBeer(!isVisibleBottelBeer);
-          }}
-        >
-        <p>Piwa butelkowe</p>
+
+        <button onClick={() => toggleSection('bottleBeer')}>
+          <p>Piwa butelkowe</p>
         </button>
         <div>
-          {isVisibleBottelBeer
+          {sectionsVisibility.bottleBeer
             ? bottleBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleWheatBeer(!isVisibleWheatBeer);
-          }}
-        >
-       <p> Piwa butelkowe pszeniczne</p>
+
+        <button onClick={() => toggleSection('wheatBeer')}>
+          <p> Piwa butelkowe pszeniczne</p>
         </button>
         <div>
-          {isVisibleWheatBeer
-            ? bottleWheatBeer.map((item) => (
-                <OpenButton key={item.id} {...item} />
-              ))
+          {sectionsVisibility.wheatBeer
+            ? bottleWheatBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleNoAlcoBeer(!isVisibleNoAlcoBeer);
-          }}
-        >
-        <p>Piwa butelkowe bezalkoholowe</p>
+
+        <button onClick={() => toggleSection('noAlcoBeer')}>
+          <p>Piwa butelkowe bezalkoholowe</p>
         </button>
         <div>
-          {isVisibleNoAlcoBeer
+          {sectionsVisibility.noAlcoBeer
             ? noAlcoBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setShots(!isShots);
-          }}
-        >
-        <p>Szoty</p>  
+
+        <button onClick={() => toggleSection('shots')}>
+          <p>Szoty</p>
         </button>
         <div>
-          {isShots
+          {sectionsVisibility.shots
             ? shots.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
 
-        <button
-          onClick={() => {
-            setIsCoctails(!isCoctails);
-          }}
-        >
+        <button onClick={() => toggleSection('coctails')}>
           <p>Koktaile</p>
         </button>
         <div>
-          {isCoctails
+          {sectionsVisibility.coctails
             ? coctails.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>    
 
-
-        <button
-          onClick={() => {
-            setIsVisibleStrongAlco(!isVisibleStrongAlco);
-          }}
-        >
-        <p>Alkohole wysokoprocentowe</p>
+        <button onClick={() => toggleSection('strongAlco')}>
+          <p>Alkohole wysokoprocentowe</p>
         </button>
         <div>
-          {isVisibleStrongAlco
+          {sectionsVisibility.strongAlco
             ? strongAlco.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleWins(!isVisibleWins);
-          }}
-        >
-        <p>Wina i wermuty</p>
+
+        <button onClick={() => toggleSection('wins')}>
+          <p>Wina i wermuty</p>
         </button>
         <div>
-          {isVisibleWins
+          {sectionsVisibility.wins
             ? wins.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
-        
-        <button
-          onClick={() => {
-            setIsVisibleNoAlco(!isVisibleNoAlco);
-          }}
-        >
-        <p>Napoje bezalkoholowe</p>
+
+        <button onClick={() => toggleSection('noAlco')}>
+          <p>Napoje bezalkoholowe</p>
         </button>
         <div>
-          {isVisibleNoAlco
+          {sectionsVisibility.noAlco
             ? noAlco.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div> 

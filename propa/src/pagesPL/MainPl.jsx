@@ -1,4 +1,5 @@
 import "../assets/styles/MainPL.scss";
+// import AboutUs from "../components/AboutUs";
 import {
   ContactLink,
   GalleryLink,
@@ -37,6 +38,7 @@ const MainPl = () => {
         <ContactLink />
         <GalleryLink />
       </div>
+      {/* <AboutUs /> */}
     </div>
   );
 };
