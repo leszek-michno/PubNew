@@ -1,20 +1,21 @@
 export const draftBeer = [
     { id: 1, name: "Holba (0,5 l)", price: 14 },
     { id: 2, name: "Holba (0,3 l)", price: 10 },
-    { id: 3, name: "Zubr - ciemny lager  (0,5 l)", price: 14 },
-    { id: 4, name: "Zubr - ciemny lager (0,3 l)", price: 10 },
+    { id: 3, name: "Litovel - ciemny lager  (0,5 l)", price: 14 },
+    { id: 4, name: "Litovel - ciemny lager (0,3 l)", price: 10 },
   ];
 
 export const bottleBeer = [
     { id: 1, name: "Litovel Premium (0,5 l)", price: 14 },
     { id: 2, name: "Litovel Premium Dark (0,5 l)", price: 14 },
     { id: 3, name: "Litovel Citron (0,5 l)", price: 15 },
-    { id: 4, name: "Desperados (0,4 l)", price: 16 },
-    { id: 7, name: "Vermont IPA (0,5 l)", price: 20 },
-    { id: 8, name: "Cherry Sour (0,5 l)", price: 20 },
-    { id: 9, name: "Double IPA (0,5 l)", price: 20 },
-    { id: 10, name: "Gluten-free", price: 18 },
-    { id: 11, name: "Cydr", price: 16 },
+    { id: 4, name: "Kozel Cerny (0,5 l)", price: 16 },
+    { id: 5, name: "Desperados (0,4 l)", price: 16 },
+    { id: 6, name: "Vermont IPA (0,5 l)", price: 20 },
+    { id: 7, name: "Cherry Sour (0,5 l)", price: 20 },
+    { id: 8, name: "Double IPA (0,5 l)", price: 20 },
+    { id: 9, name: "Gluten-free", price: 18 },
+    { id: 10, name: "Cydr", price: 16 },
   ];
 
 export const bottleWheatBeer = [
@@ -24,7 +25,7 @@ export const bottleWheatBeer = [
 
 export const noAlcoBeer = [
     { id: 1, name: "Zlaty Bažant Citron (0,5 l)", price: 16 },
-    { id: 2, name: "Heineken (0,5 l)", price: 14 },
+    { id: 2, name: "Heineken (0,5 l)", price: 16 },
     { id: 3, name: "Miłosław IPA (0,5 l)", price: 14 },
     
   ];
@@ -52,15 +53,15 @@ export const strongAlco = [
     { id: 21, name: "Jameson (40 ml)", price: 17 },
     { id: 22, name: "Ballantines (40 ml)", price: 16 },
     { id: 23, name: "Marker's Mark (40 ml)", price: 22 },
-    { id: 24, name: "Macallan (40 ml)", price: 40 },
     { id: 25, name: "Talisker (40 ml)", price: 30 },
-    { id: 26, name: "Lagavulin 16 (40 ml)", price: 40 },
+    { id: 24, name: "Macallan (40 ml)", price: 46 },
+    { id: 26, name: "Lagavulin 16 (40 ml)", price: 46 },
     { id: 27, name: "Baczewski Whisky (40 ml)", price: 20 },
     { id: 28, name: "Baileys (40 ml)", price: 16 },
     { id: 29, name: "Kahlua (40 ml)", price: 16 },
     { id: 30, name: "Malibu (40 ml)", price: 16 },
     { id: 31, name: "Tequila Sierra Silver (40 ml)", price: 16 },
-    { id: 32, name: "Tequila Reposado (40 ml)", price: 16 },
+    // { id: 32, name: "Tequila Reposado (40 ml)", price: 16 },
     { id: 33, name: "Tequila Olmeca (40 ml)", price: 18 },
     { id: 34, name: "Śliwowica Passover (40 ml)", price: 22 },
     // { id: 34, name: "Nalewka dyniowa (40 ml)", price: 12 },
@@ -75,28 +76,35 @@ export const wins = [
   ];
 
   export const noAlco = [
-    { id: 1, name: "Coca cola (200 ml)", price: 8 },
-    { id: 2, name: "Coca cola Zero (200 ml)", price: 8 },
-    { id: 3, name: "Tonik (but 250 ml)", price: 8 },
-    { id: 4, name: "Sprite (but 250 ml)", price: 8 },
-    { id: 5, name: "Fanta (but 250 ml)", price: 8 },
-    { id: 6, name: "Red bull (250 ml)", price: 12 },
-    { id: 7, name: "Red bull light (250 ml)", price: 12 },
-    { id: 8, name: "Sok pamarańczowy (250 ml)", price: 8 },
-    { id: 9, name: "Sok grejfrutowy (250 ml)", price: 8 },
-    { id: 10, name: "Sok jabłkowy (250 ml)", price: 8 },
-    { id: 11, name: "Sok porzeczkowy (250 ml)", price: 8 },
-    { id: 16, name: "Sok pomidorowy (200 ml)", price: 8 },
-    { id: 12, name: "Woda Kinga (but 350 ml)", price: 8 },
-    { id: 13, name: "Woda Kinga gaz.(but 350 ml)", price: 8 },
-    { id: 14, name: "Kawa", price: 10 },
-    { id: 15, name: "Herbata", price: 10 },
+    { id: 1, name: "Coca cola (200 ml)", price: 9 },
+    { id: 2, name: "Coca cola Zero (200 ml)", price: 9 },
+    { id: 3, name: "Tonik (but 250 ml)", price: 9 },
+    { id: 4, name: "Sprite (but 250 ml)", price: 9 },
+    { id: 5, name: "Fanta (but 250 ml)", price: 9 },
+    { id: 6, name: "Red bull (250 ml)", price: 14 },
+    { id: 7, name: "Red bull light (250 ml)", price: 14 },
+    { id: 8, name: "Sok pomarańczowy (250 ml)", price: 9 },
+    { id: 9, name: "Sok grejpfrutowy (250 ml)", price: 9 },
+    { id: 10, name: "Sok jabłkowy (250 ml)", price: 9 },
+    { id: 11, name: "Sok porzeczkowy (250 ml)", price: 9 },
+    { id: 12, name: "Sok pomidorowy (200 ml)", price: 9 },
+    { id: 13, name: "Woda Kinga (but 350 ml)", price: 8 },
+    { id: 14, name: "Woda Kinga gaz.(but 350 ml)", price: 8 },
+    { id: 15, name: "Kawa", price: 10 },
+    { id: 16, name: "Herbata", price: 10 },
 
+  ];
+
+  export const draftBeerEng = [
+    { id: 1, name: "Holba (0,5 l)", price: 14 },
+    { id: 2, name: "Holba (0,3 l)", price: 10 },
+    { id: 3, name: "Litovel - dark lager  (0,5 l)", price: 14 },
+    { id: 4, name: "Litovel - dark lager (0,3 l)", price: 10 },
   ];
 
   export const shots = [
     { id: 1, name: "Wściekły pies (20 ml)", price: 14, composition: "spirytus, sok malinowy, tabasco" },
-    { id: 2, name: "Baby Giness (40 ml)", price: 16, composition: "kahlua, bailey's irish cream" },
+    { id: 2, name: "Baby Guinness (40 ml)", price: 16, composition: "kahlua, bailey's irish cream" },
     { id: 3, name: "Czupa-czups (40 ml)", price: 14, composition: "wódka, syrop imbirowy, sok z cytryny, pieprz"},
     { id: 4, name: "Monte (40 ml)", price: 16, composition: "soplica orzech laskowy, mleko" },
     // {id: 5, name: "Tęczowe szoty (40 ml x 6)", price: 50, composition: "wódka, grenadyna, blue curacao, sok pomarańczowy"},
@@ -104,30 +112,50 @@ export const wins = [
   ]
 
   export const coctails    = [
-    { id: 1, name: "Krwawa Mary", price: 24, composition: "wódka 40 ml, sok pomidorowy, tabasco" },
-    { id: 2, name: "Szarlotka", price: 22, composition: "żubrówka 40 ml, sok jabłkowy, cynamon" },
-    { id: 3, name: "Jager Bomba", price: 28, composition: "jagermeister 40 ml, red bull" },
-    { id: 4, name: "Tequila Sunrise", price: 26, composition: "tequila 40 ml, sok pomarańczowy, grenadyna" },
-    { id: 6, name: "Oko Stalina", price: 22, composition: "piwo 250 ml, wiśniówka 20 ml, sok grejfrutowy" },
+    { id: 1, name: "Krwawa Mary", price: 25, composition: "wódka 40 ml, sok pomidorowy, tabasco" },
+    { id: 2, name: "Szarlotka", price: 23, composition: "żubrówka 40 ml, sok jabłkowy, cynamon" },
+    { id: 3, name: "Jager Bomba", price: 30, composition: "jagermeister 40 ml, red bull" },
+    { id: 4, name: "Tequila Sunrise", price: 27, composition: "tequila 40 ml, sok pomarańczowy, grenadyna" },
+    { id: 6, name: "Oko Stalina", price: 23, composition: "piwo 250 ml, wiśniówka 20 ml, sok grejfrutowy" },
     { id: 7, name: "Whiskey Sour", price: 22, composition: "jameson 40 ml, sok z cytryny, syrop cukrowy" },
     
   ]
 
+  export const noAlcoEng = [
+    { id: 1, name: "Coca cola (200 ml)", price: 9 },
+    { id: 2, name: "Coca cola Zero (200 ml)", price: 9 },
+    { id: 3, name: "Tonik (but 250 ml)", price: 9 },
+    { id: 4, name: "Sprite (but 250 ml)", price: 9 },
+    { id: 5, name: "Fanta (but 250 ml)", price: 9 },
+    { id: 6, name: "Red bull (250 ml)", price: 14 },
+    { id: 7, name: "Red bull light (250 ml)", price: 14 },
+    { id: 8, name: "Orange juice (250 ml)", price: 9 },
+    { id: 9, name: "Grapefruit juice (250 ml)", price: 9 },
+    { id: 10, name: "Apple juice (250 ml)", price: 9 },
+    { id: 11, name: "Currant juice (250 ml)", price: 9 },
+    { id: 12, name: "Tomato juice (200 ml)", price: 9 },
+    { id: 13, name: "Still water (but 350 ml)", price: 8 },
+    { id: 14, name: "Sparkling water (but 350 ml)", price: 8 },
+    { id: 15, name: "Coffee", price: 10 },
+    { id: 16, name: "Tea", price: 10 },
+
+  ];
+  
   export const shotsEng = [
     { id: 1, name: "Mad Dog (20 ml)", price: 14, composition: "spirytus 15 ml, rasberry syrup, tabasco" },
-    { id: 2, name: "Baby Giness (40 ml)", price: 16, composition: "kahlua, bailey's irish cream" },
+    { id: 2, name: "Baby Guinness (40 ml)", price: 16, composition: "kahlua, bailey's irish cream" },
     { id: 3, name: "Chupa Chups (40 ml)", price: 14, composition: "vodka, ginger syrup, lemon juice" },
-    { id: 4, name: "Monte (40 ml)", price: 14, composition: "soplica hazelnut, milk" },
+    { id: 4, name: "Monte (40 ml)", price: 16, composition: "soplica hazelnut, milk" },
     // { id: 5, name: "Rainbow's shots (40 ml x 6)", price: 50, composition: "vodka, orange juice, grenadine, blue curacao"}, 
     
   ]
 
   export const coctailsEng    = [
-    { id: 1, name: "Bloody Mary", price: 24, composition: "vodka 40 ml, tomato juice, tabasco" },
-    { id: 2, name: "Tatanka", price: 22, composition: "bison grass 40 ml, apple juice, cinnamon" },
-    { id: 3, name: "Jager Bomb", price: 27, composition: "jagermeister 40 ml, red bull" },
-    { id: 4, name: "Tequila Sunrise", price: 26, composition: "tequila 40 ml, orange juice, grenadine" },
-    { id: 6, name: "Stalin's Eye", price: 22, composition: "beer 250 ml, juice, cherry vodka 20 ml" },
+    { id: 1, name: "Bloody Mary", price: 25, composition: "vodka 40 ml, tomato juice, tabasco" },
+    { id: 2, name: "Tatanka", price: 23, composition: "bison grass 40 ml, apple juice, cinnamon" },
+    { id: 3, name: "Jager Bomb", price: 30, composition: "jagermeister 40 ml, red bull" },
+    { id: 4, name: "Tequila Sunrise", price: 27, composition: "tequila 40 ml, orange juice, grenadine" },
+    { id: 6, name: "Stalin's Eye", price: 23, composition: "beer 250 ml, juice, cherry vodka 20 ml" },
     { id: 7, name: "Whiskey Sour", price: 22, composition: "jameson 40 ml, sweet syrup, lemon juice" },
     
   ]

@@ -1,13 +1,13 @@
 import { useState } from "react";
 import '../assets/styles/Menu.scss'
 import { 
-  draftBeer,
+  draftBeerEng,
   bottleBeer,
   bottleWheatBeer,
   noAlcoBeer,
   strongAlco,
   wins,
-  noAlco,
+  noAlcoEng,
   shotsEng,
   coctailsEng,
 } from '../assets/data/products';
@@ -45,7 +45,7 @@ const ManuEng = () => {
         </button>
         <div>
           {sectionsVisibility.draftBeer
-            ? draftBeer.map((item) => <OpenButton key={item.id} {...item} />)
+            ? draftBeerEng.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
 
@@ -117,7 +117,7 @@ const ManuEng = () => {
         </button>
         <div>
           {sectionsVisibility.noAlco
-            ? noAlco.map((item) => <OpenButton key={item.id} {...item} />)
+            ? noAlcoEng.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
 

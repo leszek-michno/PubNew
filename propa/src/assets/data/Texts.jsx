@@ -1,12 +1,35 @@
 import { NavLink } from "react-router-dom";
 
+export const HBHalloPl = () => {
+  return (
+    <div>
+      <p>
+        W tym roku Halloween w Propagandzie na psychobillowo! W nabliższy piątek
+        wystąpi u nas duet Handsome Boys. Początek koncertu o godz. 20.00. Wstęp
+        darmowy. Zapraszamy! 🤘
+      </p>
+    </div>
+  );
+};
 
+export const HBHalloEng = () => {
+  return (
+    <div>
+      <p>
+        This year, Halloween at Propaganda will have a psychobilly theme! This
+        Friday, Handsome Boys will perform. The concert begins at 8:00 PM. join
+        us! 🤘
+      </p>
+    </div>
+  );
+};
 
 export const HbsGig = () => {
   return (
     <div>
       <p>
-      W najbliższą niedzielę (20 kwietnia) zagra u nas Handsome Boys. Start o godz. 20.00. Wstęp wolny!
+        W najbliższą niedzielę (20 kwietnia) zagra u nas Handsome Boys. Start o
+        godz. 20.00. Wstęp wolny!
       </p>
     </div>
   );
@@ -16,7 +39,9 @@ export const HbsGigEng = () => {
   return (
     <div>
       <p>
-      This coming Sunday (April 20) the Handsome Boys duo will play at Pub Propaganda! Lots of cool rockabilly and psychobilly music. Starting at 8:00 PM.
+        This coming Sunday (April 20) the Handsome Boys duo will play at Pub
+        Propaganda! Lots of cool rockabilly and psychobilly music. Starting at
+        8:00 PM.
       </p>
     </div>
   );

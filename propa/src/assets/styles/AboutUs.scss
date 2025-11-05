@@ -3,28 +3,88 @@
   from {
     scale: 100%;
   }
-  to{
+  to {
     scale: 105%;
   }
 }
+
 .aboutUsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  width: 800px;
+  max-width: 54rem;
+  margin-bottom: 2rem;
+
   button {
-    width: 25rem;
+    width: 20rem;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
-    font-size: 1.2rem;
-    color: $colorDirtyWhite;
     box-shadow: 0.2rem 0.2rem 0.2rem rgb(15, 13, 13);
     &:hover {
-    animation-name: head;
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
+      animation-name: head;
+      animation-duration: 0.5s;
+      animation-fill-mode: both;
+    }
+    p {
+      font-size: 1.3rem;
+      font-weight: 100;
+      color: $colorDirtyWhite;
+      text-align: center;
+
+    }
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: $colorDirtyWhite;
+    text-align: left;
+    margin: 1rem 0;
+    p{
+      margin: 0.5rem 0; 
+      }
+    .mapinfo {
+      font-size: 1rem;
+      font-family: cursive;
+      color: $colorDirtyWhite;
+      margin-top: 1rem;
+      text-align: center;
+    }    
+    
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      box-shadow: 0.2rem 0.2rem 0.2rem rgb(15, 13, 13);
+      margin: 1rem 0;
+      transition: width 0.5s ease, transform 0.3s ease;
+  
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .aboutUsContainer {
+    max-width: 90%;
+    article {
+  
+  }
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutUsContainer {
+    max-width: 94%;
+  article {
+   img {
+      &:hover
+         {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
   }
 }
