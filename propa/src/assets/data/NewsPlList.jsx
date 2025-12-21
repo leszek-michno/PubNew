@@ -1,3 +1,4 @@
+import Photo_1 from "../images/HBhalloween.png";
 import Photo_2 from "../images/hbpropa.jpg";
 import Photo_3 from "../images/IMG_4212.webp";
 import Photo_4 from "../images/swieto.jpeg";
@@ -7,11 +8,13 @@ import Photo_7 from "../images/Christ.jpg";
 import Photo_8 from "../images/1st.jpeg";
 import Photo_9 from "../images/pubEaster.jpg";
 import Photo_10 from "../images/hbswpropa.jpg";
-import Photo_1 from "../images/HBhalloween.png";
+import Photo_11 from "../images/NewYearPl.png";
+import Photo_12 from "../images/NewYearEve.png";
+import Photo_14 from "../images/wigilia.jpeg";
 import {
   Booking,
   BookingEng,
-  ChristmesEng,
+  // ChristmesEng,
   ChristmesPl,
   FirstEng,
   FirstPl,
@@ -29,22 +32,36 @@ import {
   HbsGigEng,
   HBHalloPl,
   HBHalloEng,
+  NewYEng,
+  ChristmesEngTwo,
 } from "./Texts";
 
 // Polish version
 
 export const NewsPlList = [
   {
-    id: 10,
-    title: "Halloween",
-    content: <HBHalloPl />,
-    img: Photo_1,
+    id: 12,
+    title: "Wigilia i Święta",
+    content: <ChristmesPl />,
+    img: Photo_14,
+  },
+  {
+    id: 11,
+    title: "Sylwester",
+    content: <NewYearPl />,
+    img: Photo_11,
   },
   {
     id: 9,
     title: "Ważne",
     content: <Booking />,
     img: Photo_3,
+  },
+  {
+    id: 10,
+    title: "Halloween",
+    content: <HBHalloPl />,
+    img: Photo_1,
   },
   {
     id: 8,
@@ -99,14 +116,19 @@ export const NewsPlList = [
 
 //English version
 
-
-
 export const NewsListEng = [
-    {
-    id: 10,
-    title: "Halloween",
-    content: <HBHalloEng/>,
-    img: Photo_1,
+  {
+    id: 12,
+    title: "Christmas",
+    content: <ChristmesEngTwo />,
+    img: Photo_14,
+  },
+
+  {
+    id: 11,
+    title: "New Year's Eve",
+    content: <NewYEng />,
+    img: Photo_12,
   },
   {
     id: 9,
@@ -114,6 +136,13 @@ export const NewsListEng = [
     content: <BookingEng />,
     img: Photo_3,
   },
+  {
+    id: 10,
+    title: "Halloween",
+    content: <HBHalloEng />,
+    img: Photo_1,
+  },
+
   {
     id: 8,
     title: "Easter Gig",
@@ -139,12 +168,12 @@ export const NewsListEng = [
     content: <NewYearEng />,
     img: Photo_6,
   },
-  {
-    id: 4,
-    title: "Christmas",
-    content: <ChristmesEng />,
-    img: Photo_7,
-  },
+  // {
+  //   id: 4,
+  //   title: "Christmas",
+  //   content: <ChristmesEng />,
+  //   img: Photo_7,
+  // },
   {
     id: 3,
     title: "Halloween",

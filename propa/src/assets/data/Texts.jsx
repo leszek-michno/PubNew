@@ -1,5 +1,27 @@
 import { NavLink } from "react-router-dom";
 
+export const NewYEPl = () => {
+  return (
+    <div>
+      <p>
+        Jak co roku w Noc Sylwestrową jesteśmy otwarci dla wszystkich! Nie
+        prowadzimy rezerwacji miejsc. Zaczynamy od godz. 20.00 🥳 Zapraszamy! 🤘
+      </p>
+    </div>
+  );
+};
+
+export const NewYEng = () => {
+  return (
+    <div>
+      <p>
+        As every year, we are open to everyone on New Years Eve! Reservations
+        are not required. We start at 8:00 PM 🥳 Join us! 🤘
+      </p>
+    </div>
+  );
+};
+
 export const HBHalloPl = () => {
   return (
     <div>
@@ -114,20 +136,20 @@ export const FirstEng = () => {
 export const ChristmesPl = () => {
   return (
     <div>
-      <p>
-        Jesteśmy otwarci w Wigilię i Święta! 24 grudnia od godz 18.00, a 25 - 26
-        grudnia od godz. 17.00.
-      </p>
+      <p>Jesteśmy otwarci w Wigilię i Święta!</p>
+      <p>24 grudnia od godz 20.00;</p>
+      <p>25 grudnia od godz 17.00,</p>
+      <p>26 grudnia od godz 18.00,</p>
     </div>
   );
 };
-export const ChristmesEng = () => {
+export const ChristmesEngTwo = () => {
   return (
     <div>
-      <p>
-        We are open on Christmas Eve and Christmas Day! December 24th from 6:00
-        PM, and December 25th and 26th from 5:00 PM.
-      </p>
+      <p>We are open on Christmas Eve and Christmas Day!</p>
+      <p>December 24th from 8:00 pm</p>
+      <p>December 25th from 5:00 pm</p>
+      <p>and 26th from 5:00 pm.</p>
     </div>
   );
 };
