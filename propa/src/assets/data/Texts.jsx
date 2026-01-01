@@ -1,5 +1,28 @@
 import { NavLink } from "react-router-dom";
 
+
+
+export const FirstJanPl = () => {
+  return (
+    <div>
+      <p>
+        Dzisiaj (1 stycznia 2026) jesteśmy otwarci od godz. 19.00. 
+      </p>
+    </div>
+  );
+};
+
+export const FirstJanEng = () => {
+  return (
+    <div>
+      <p>
+        Today (January 1, 2026) we are open from 7:00 p.m.
+      </p>
+    </div>
+  );
+};
+
+
 export const NewYEPl = () => {
   return (
     <div>
@@ -149,7 +172,7 @@ export const ChristmesEngTwo = () => {
       <p>We are open on Christmas Eve and Christmas Day!</p>
       <p>December 24th from 8:00 pm</p>
       <p>December 25th from 5:00 pm</p>
-      <p>and 26th from 5:00 pm.</p>
+      <p>and 26th from 6:00 pm.</p>
     </div>
   );
 };

@@ -11,6 +11,7 @@ import Photo_10 from "../images/hbswpropa.jpg";
 import Photo_11 from "../images/NewYearPl.png";
 import Photo_12 from "../images/NewYearEve.png";
 import Photo_14 from "../images/wigilia.jpeg";
+import Photo_15 from "../images/firstJanuary.jpg";
 import {
   Booking,
   BookingEng,
@@ -34,11 +35,20 @@ import {
   HBHalloEng,
   NewYEng,
   ChristmesEngTwo,
+  FirstJanPl,
+  FirstJanEng,
 } from "./Texts";
 
 // Polish version
 
 export const NewsPlList = [
+  {
+    id: 13,
+    title: "Pierwszy stycznia",
+    content: <FirstJanPl/>,
+    img: Photo_15,
+  },
+  
   {
     id: 12,
     title: "Wigilia i Święta",
@@ -117,6 +127,13 @@ export const NewsPlList = [
 //English version
 
 export const NewsListEng = [
+  
+  {
+    id: 13,
+    title: "January 1st",
+    content: <FirstJanEng/>,
+    img: Photo_15,
+  },
   {
     id: 12,
     title: "Christmas",
