@@ -112,7 +112,6 @@
     display: block;
   }
   .adress {  
-    width: 100%;
     height: auto;
     margin-bottom: 15px;
     border-radius: 8px;
@@ -123,3 +122,12 @@
     }
 }
 
+@media screen and (max-width: 600px){
+  .contact{
+    display: block;
+  }
+  .adress {  
+    width: 100%;
+    height: auto;
+    }
+}
