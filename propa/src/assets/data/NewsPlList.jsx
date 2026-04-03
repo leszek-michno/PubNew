@@ -12,6 +12,7 @@ import Photo_11 from "../images/NewYearPl.png";
 import Photo_12 from "../images/NewYearEve.png";
 import Photo_14 from "../images/wigilia.jpeg";
 import Photo_15 from "../images/firstJanuary.jpg";
+import Photo_16 from "../images/ester.webp";
 import {
   Booking,
   BookingEng,
@@ -37,11 +38,22 @@ import {
   ChristmesEngTwo,
   FirstJanPl,
   FirstJanEng,
+  EsterPol,
+  EsterEng26,
 } from "./Texts";
 
 // Polish version
 
 export const NewsPlList = [
+
+
+{
+    id: 14,
+    title: "Wielkanoc",
+    content: <EsterPol/>,
+    img: Photo_16,
+  },
+
   {
     id: 13,
     title: "Pierwszy stycznia",
@@ -127,7 +139,12 @@ export const NewsPlList = [
 //English version
 
 export const NewsListEng = [
-  
+  {
+    id: 14,
+    title: "Easter Holidays",
+    content: <EsterEng26/>,
+    img: Photo_16,
+  },
   {
     id: 13,
     title: "January 1st",

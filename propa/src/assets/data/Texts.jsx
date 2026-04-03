@@ -1,13 +1,37 @@
 import { NavLink } from "react-router-dom";
 
+export const EsterPol = () => {
+  return (
+    <div>
+      <p>
+        W Wielkanoc oraz w piątek i sobotę przed świętami jesteśmy otwarci jak
+        zawsze:
+        <p>- w piątek i sobotę od godz. 18.00 do 4.00; </p>
+        <p>- w niedzielę od godz. 18.00 do 2.00;</p>
+        <p>- w poniedziałek od 17.00 do 2.00.</p>
+      </p>
+    </div>
+  );
+};
 
+export const EsterEng26 = () => {
+  return (
+    <div>
+      <p>
+        On Easter and the Friday and Saturday before Easter, we are open as
+        usual:
+        <p>- Friday and Saturday from 6:00 PM to 4:00 AM; </p>
+        <p>- Sunday from 6:00 PM to 2:00 AM; </p>
+        <p>- Monday from 5:00 PM to 2:00 AM.</p>
+      </p>
+    </div>
+  );
+};
 
 export const FirstJanPl = () => {
   return (
     <div>
-      <p>
-        Dzisiaj (1 stycznia 2026) jesteśmy otwarci od godz. 19.00. 
-      </p>
+      <p>Dzisiaj (1 stycznia 2026) jesteśmy otwarci od godz. 19.00.</p>
     </div>
   );
 };
@@ -15,13 +39,10 @@ export const FirstJanPl = () => {
 export const FirstJanEng = () => {
   return (
     <div>
-      <p>
-        Today (January 1, 2026) we are open from 7:00 p.m.
-      </p>
+      <p>Today (January 1, 2026) we are open from 7:00 p.m.</p>
     </div>
   );
 };
-
 
 export const NewYEPl = () => {
   return (
